@@ -1,76 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olá, Mundo!</title>
+  <title>CETI Parnaíba — Ensino Médio de Tempo Integral</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config" data-stitch-original-src="8eb3c598e05f47bf===../../tailwind.config.js">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'accent': '#9A3412',
+        'light-primary': '#1B365D',
+        'light-on-primary': '#FFFFFF',
+        'light-secondary': '#1E6B4B',
+        'light-on-secondary': '#FFFFFF',
+        'light-surface': '#F8FAFC',
+        'light-on-surface': '#0F172A',
+        'light-surface-container': '#EDF2F7',
+        'light-on-surface-container': '#1E293B',
+        'dark-primary': '#93C5FD',
+        'dark-on-primary': '#0F172A',
+        'dark-secondary': '#86EFAC',
+        'dark-on-secondary': '#064E3B',
+        'dark-surface': '#0F172A',
+        'dark-on-surface': '#F8FAFC',
+        'dark-surface-container': '#1E293B',
+        'dark-on-surface-container': '#E2E8F0',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'section': '64px',
+        'page-margin': '24px',
+      },
+      fontFamily: {
+        'display': ['"PT Serif"', 'sans-serif'],
+        'headline': ['"PT Serif"', 'sans-serif'],
+        'title': ['"PT Sans"', 'sans-serif'],
+        'body': ['"PT Sans"', 'sans-serif'],
+        'label': ['"PT Sans"', 'sans-serif'],
+      },
+      fontSize: {
+        'display-lg': ['48px', { lineHeight: '56px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-lg-mobile': ['32px', { lineHeight: '40px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['36px', { lineHeight: '44px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg-mobile': ['28px', { lineHeight: '36px', fontWeight: '700' }],
+        'headline-md': ['28px', { lineHeight: '36px', fontWeight: '600' }],
+        'headline-sm': ['22px', { lineHeight: '28px', fontWeight: '600' }],
+        'title-lg': ['20px', { lineHeight: '28px', fontWeight: '700' }],
+        'title-md': ['18px', { lineHeight: '24px', fontWeight: '600' }],
+        'title-sm': ['16px', { lineHeight: '22px', fontWeight: '600' }],
+        'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
+        'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+        'body-sm': ['14px', { lineHeight: '20px', fontWeight: '400' }],
+        'label-lg': ['15px', { lineHeight: '20px', fontWeight: '700' }],
+        'label-md': ['13px', { lineHeight: '18px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '16px', fontWeight: '600' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+        'surface-enter': '250ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'surface-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;600;700&amp;family=PT+Sans:wght@400;600;700&amp;family=PT+Mono&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 24px;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #fff;
-    }
-
-    h1 {
-      font-size: 3rem;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    button {
-      padding: 12px 28px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: #764ba2;
-      background: #fff;
-      border: none;
-      border-radius: 30px;
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    button:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    button:active {
-      transform: scale(0.95);
-    }
-
-    p {
-      font-size: 1.2rem;
-      min-height: 1.5em;
+    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      line-height: 1 !important;
+      box-sizing: content-box;
+      overflow: hidden;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
     }
   </style>
+  <link rel="stylesheet" href="componentes/topbar.css">
+  <link rel="stylesheet" href="componentes/header.css">
+  <link rel="stylesheet" href="componentes/hero.css">
+  <link rel="stylesheet" href="componentes/sobre.css">
+  <link rel="stylesheet" href="componentes/integral.css">
+  <link rel="stylesheet" href="componentes/itinerarios.css">
+  <link rel="stylesheet" href="componentes/estrutura.css">
+  <link rel="stylesheet" href="componentes/matriculas.css">
+  <link rel="stylesheet" href="componentes/contato.css">
+  <link rel="stylesheet" href="componentes/rodape.css">
 </head>
-<body>
-  <h1>Olá, Mundo!</h1>
-  <button id="btn">Clique em mim!</button>
-  <p id="mensagem"></p>
-
-  <script>
-    const botao = document.getElementById('btn');
-    const mensagem = document.getElementById('mensagem');
-
-    let contador = 0;
-
-    botao.addEventListener('click', () => {
-      contador++;
-      mensagem.textContent = `Você clicou ${contador} vez(es)!`;
-    });
-  </script>
+<body class="bg-light-surface text-light-on-surface font-body antialiased selection:bg-light-primary selection:text-light-on-primary">
+  <div class="min-h-screen flex flex-col justify-between">
+    <div data-component="topbar"></div>
+    <div data-component="header"></div>
+    <div data-component="hero"></div>
+    <div data-component="sobre"></div>
+    <div data-component="integral"></div>
+    <div data-component="itinerarios"></div>
+    <div data-component="estrutura"></div>
+    <div data-component="matriculas"></div>
+    <div data-component="contato"></div>
+    <div data-component="rodape"></div>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 </html>
