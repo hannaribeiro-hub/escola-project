@@ -4,7 +4,7 @@
 
   const baseImg = 'conteudo/cursos/fotos/';
 
-  fetch('conteudo/cursos/dados/cursos.json')
+  fetch('conteudo/cursos/dados/cursos.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.cursos || []).map((c) => `

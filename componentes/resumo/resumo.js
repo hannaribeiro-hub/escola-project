@@ -2,7 +2,7 @@
   const grid = document.getElementById('resumoGrid');
   if (!grid) return;
 
-  fetch('conteudo/resumo/dados/itens.json')
+  fetch('conteudo/resumo/dados/itens.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.itens || []).map((item) => `

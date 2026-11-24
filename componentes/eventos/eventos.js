@@ -13,7 +13,7 @@
 
   const baseImg = 'conteudo/eventos/fotos/';
 
-  fetch('conteudo/eventos/dados/eventos.json')
+  fetch('conteudo/eventos/dados/eventos.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.eventos || []).map((ev, i) => `

@@ -23,6 +23,54 @@
       "linhaCor": "accent",
       "feito": "Jogo indie selecionado em mostra regional de desenvolvimento teen.",
       "fotoBorda": "accent"
+    },
+    {
+      "foto": "aluno-ana.jpg",
+      "nome": "Ana Beatriz Rocha",
+      "linha": "Marketing • 2º Ano",
+      "linhaCor": "primary",
+      "feito": "Criou campanha de divulgação para feira cultural da escola com mais de 500 visualizações.",
+      "fotoBorda": "secondary"
+    },
+    {
+      "foto": "aluno-pedro.jpg",
+      "nome": "Pedro Henrique Lima",
+      "linha": "Segurança do Trabalho • 3º Ano",
+      "linhaCor": "accent",
+      "feito": "Desenvolveu projeto de sinalização de segurança para o laboratório da escola.",
+      "fotoBorda": "primary"
+    },
+    {
+      "foto": "aluno-maria.jpg",
+      "nome": "Maria Fernanda Alves",
+      "linha": "Administração • 3º Ano",
+      "linhaCor": "secondary",
+      "feito": "Elaborou plano de negócios premiado em feira de empreendedorismo estudantil.",
+      "fotoBorda": "accent"
+    },
+    {
+      "foto": "aluno-joao.jpg",
+      "nome": "João Pedro Santos",
+      "linha": "Dev. de Sistemas • 2º Ano",
+      "linhaCor": "primary",
+      "feito": "Programou sistema de gestão de empréstimos da biblioteca escolar.",
+      "fotoBorda": "secondary"
+    },
+    {
+      "foto": "aluno-sofia.jpg",
+      "nome": "Sofia Martins",
+      "linha": "Energias Renováveis • 1º Ano",
+      "linhaCor": "accent",
+      "feito": "Apresentou maquete de casa sustentáveis com painel solar na mostra de ciências.",
+      "fotoBorda": "primary"
+    },
+    {
+      "foto": "aluno-enzo.jpg",
+      "nome": "Enzo Carvalho",
+      "linha": "Jogos Digitais • 1º Ano",
+      "linhaCor": "secondary",
+      "feito": "Primeiro lugar no torneio interno de games da escola.",
+      "fotoBorda": "accent"
     }
   ]
 }

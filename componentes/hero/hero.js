@@ -36,7 +36,7 @@
     ).join('');
   }
 
-  fetch('conteudo/hero/dados/slides.json')
+  fetch('conteudo/hero/dados/slides.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       const slides = data.slides || [];

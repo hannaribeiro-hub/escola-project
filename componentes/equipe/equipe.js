@@ -9,12 +9,12 @@
 
   const baseImg = 'conteudo/equipe/fotos/';
 
-  fetch('conteudo/equipe/dados/membros.json')
+  fetch('conteudo/equipe/dados/membros.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       container.innerHTML = (data.membros || []).map((m) => `
         <div class="min-w-[280px] max-w-[280px] p-5 rounded-xl border border-slate-200 bg-white flex flex-col items-center text-center flex-shrink-0">
-          <img src="${baseImg}${m.foto}" alt="${m.nome}" class="w-20 h-20 rounded-full object-cover border-2 border-${m.cor || 'primary'} mb-3">
+          <img src="${baseImg}${m.foto}" alt="${m.nome}" class="w-28 h-28 rounded-full object-cover border-2 border-${m.cor || 'primary'} mb-3">
           <h3 class="font-headline font-bold text-headline-sm text-slate-900">${m.nome}</h3>
           <span class="text-body-sm font-semibold text-${m.cor || 'primary'} mb-1">${m.cargo}</span>
           <span class="text-[12px] text-slate-500 mb-3">${m.formacao}</span>
