@@ -2,9 +2,9 @@
   const grid = document.getElementById('alunosGrid');
   if (!grid) return;
 
-  const baseImg = 'imagens/alunos/imagens/';
+  const baseImg = 'conteudo/alunos/fotos/';
 
-  fetch('imagens/alunos/dados/alunos.json')
+  fetch('conteudo/alunos/dados/alunos.json')
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.alunos || []).map((a) => `

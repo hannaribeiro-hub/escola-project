@@ -2,7 +2,7 @@
   const grid = document.getElementById('valoresGrid');
   if (!grid) return;
 
-  fetch('imagens/valores/dados/itens.json')
+  fetch('conteudo/valores/dados/itens.json')
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.itens || []).map((item) => `

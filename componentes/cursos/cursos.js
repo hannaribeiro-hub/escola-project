@@ -2,9 +2,9 @@
   const grid = document.getElementById('cursosGrid');
   if (!grid) return;
 
-  const baseImg = 'imagens/cursos/imagens/';
+  const baseImg = 'conteudo/cursos/fotos/';
 
-  fetch('imagens/cursos/dados/cursos.json')
+  fetch('conteudo/cursos/dados/cursos.json')
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.cursos || []).map((c) => `

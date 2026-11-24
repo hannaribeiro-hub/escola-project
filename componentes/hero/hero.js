@@ -4,7 +4,7 @@
 
   const slidesWrap = document.getElementById('heroSlides');
   const dotsWrap = document.getElementById('heroDots');
-  const baseImg = 'imagens/hero/imagens/';
+  const baseImg = 'conteudo/hero/fotos/';
 
   const seloCores = { primary: 'bg-primary', secondary: 'bg-secondary', accent: 'bg-accent' };
   const botaoEstilos = {
@@ -20,7 +20,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent flex items-center">
           <div class="max-w-6xl mx-auto px-4 sm:px-6 w-full">
             <div class="max-w-xl text-white space-y-4">
-              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full ${seloCores[s.seloCor] || 'bg-secondary'} text-white text-label-sm font-bold">${s.selo}</span>
+              <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full ${seloCores[s.seloCor] || 'bg-secondary'} text-white text-label-lg font-bold">${s.selo}</span>
               <h1 class="font-headline font-extrabold text-display-lg-mobile md:text-display-lg leading-tight">${s.titulo}</h1>
               <p class="text-body-md text-white/90 leading-relaxed">${s.texto}</p>
               <div class="pt-2 flex items-center gap-3">
@@ -36,7 +36,7 @@
     ).join('');
   }
 
-  fetch('imagens/hero/dados/slides.json')
+  fetch('conteudo/hero/dados/slides.json')
     .then((r) => r.json())
     .then((data) => {
       const slides = data.slides || [];

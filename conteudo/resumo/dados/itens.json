@@ -1,0 +1,22 @@
+{
+  "itens": [
+    {
+      "icone": "music_note",
+      "titulo": "Aulas de Música",
+      "texto": "Formação musical com instrumentos e canto para desenvolver talento e cultura.",
+      "cor": "primary"
+    },
+    {
+      "icone": "emoji_events",
+      "titulo": "Reforço",
+      "texto": "Preparação para olimpíadas de Matemática, Português, Inglês e Ciências, com treinos focados em raciocínio e resolução de problemas.",
+      "cor": "secondary"
+    },
+    {
+      "icone": "sports_soccer",
+      "titulo": "Esportes",
+      "texto": "Atividades físicas, esportes coletivos e jogos para saúde, convivência e trabalho em equipe.",
+      "cor": "accent"
+    }
+  ]
+}

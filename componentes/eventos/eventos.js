@@ -11,9 +11,9 @@
   const grid = document.getElementById('eventosGrid');
   if (!grid) return;
 
-  const baseImg = 'imagens/eventos/imagens/';
+  const baseImg = 'conteudo/eventos/fotos/';
 
-  fetch('imagens/eventos/dados/eventos.json')
+  fetch('conteudo/eventos/dados/eventos.json')
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.eventos || []).map((ev, i) => `

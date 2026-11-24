@@ -7,9 +7,9 @@
   const container = document.getElementById('teamContainer');
   if (!container) return;
 
-  const baseImg = 'imagens/equipe/imagens/';
+  const baseImg = 'conteudo/equipe/fotos/';
 
-  fetch('imagens/equipe/dados/membros.json')
+  fetch('conteudo/equipe/dados/membros.json')
     .then((r) => r.json())
     .then((data) => {
       container.innerHTML = (data.membros || []).map((m) => `

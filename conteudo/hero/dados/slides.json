@@ -2,7 +2,7 @@
   "slides": [
     {
       "imagem": "slide-sistemas.jpg",
-      "selo": "Curso Técnico • TI & Software",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "secondary",
       "titulo": "Técnico em Desenvolvimento de Sistemas",
       "texto": "Programação, desenvolvimento web e mobile, banco de dados e computação em nuvem — do código à carreira em tecnologia.",
@@ -12,7 +12,7 @@
     },
     {
       "imagem": "slide-admin.jpg",
-      "selo": "Curso Técnico • Gestão & Negócios",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Administração com Ênfase em Empreendedorismo",
       "texto": "Gestão empresarial, finanças, marketing e plano de negócios para quem quer empreender com método.",
@@ -22,7 +22,7 @@
     },
     {
       "imagem": "slide-jogos.jpg",
-      "selo": "Curso Técnico • Games & Design",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Desenvolvimento de Jogos",
       "texto": "Criação de jogos 2D e 3D, motores de game, design de personagens, arte e animação digital.",
@@ -32,7 +32,7 @@
     },
     {
       "imagem": "slide-energias.jpg",
-      "selo": "Curso Técnico • Sustentabilidade",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "secondary",
       "titulo": "Técnico em Energias Renováveis",
       "texto": "Painéis solares fotovoltaicos, energia eólica e eficiência energética para um futuro sustentável.",
@@ -42,7 +42,7 @@
     },
     {
       "imagem": "slide-marketing.jpg",
-      "selo": "Curso Técnico • Comunicação",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "primary",
       "titulo": "Técnico em Marketing",
       "texto": "Redes sociais, marketing digital, produção de conteúdo, tráfego pago e gestão de marcas.",
@@ -52,7 +52,7 @@
     },
     {
       "imagem": "slide-seguranca.jpg",
-      "selo": "Curso Técnico • Saúde & Segurança",
+      "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Segurança do Trabalho",
       "texto": "Prevenção de acidentes, NR's, ergonomia e gestão de segurança em ambientes profissionais.",
