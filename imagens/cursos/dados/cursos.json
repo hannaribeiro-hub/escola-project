@@ -1,0 +1,58 @@
+{
+  "cursos": [
+    {
+      "imagem": "curso-sistemas.jpg",
+      "tag": "TI & Software",
+      "tagCor": "primary",
+      "titulo": "Desenvolvimento de Sistemas",
+      "oferece": "Lógica de programação, desenvolvimento web e mobile, banco de dados e computação em nuvem.",
+      "indicado": "Jovens interessados em lógica, computação, criação de aplicativos e tecnologia.",
+      "carga": "1.200h"
+    },
+    {
+      "imagem": "curso-jogos.jpg",
+      "tag": "Games & Design",
+      "tagCor": "accent",
+      "titulo": "Desenvolvimento de Jogos",
+      "oferece": "Criação de jogos 2D e 3D, programação em motores Unity, design de personagens, arte e animação.",
+      "indicado": "Estudantes criativos apaixonados pelo universo dos games, narrativa e arte interativa.",
+      "carga": "1.200h"
+    },
+    {
+      "imagem": "curso-marketing.jpg",
+      "tag": "Comunicação",
+      "tagCor": "primary",
+      "titulo": "Marketing",
+      "oferece": "Redes sociais, marketing digital, produção de conteúdo, tráfego pago e gestão de marcas.",
+      "indicado": "Pessoas comunicativas, criativas e que gostam de negócios, mídias e vendas.",
+      "carga": "1.000h"
+    },
+    {
+      "imagem": "curso-energias.jpg",
+      "tag": "Sustentabilidade",
+      "tagCor": "secondary",
+      "titulo": "Energias Renováveis",
+      "oferece": "Instalação e manutenção de painéis solares fotovoltaicos, energia eólica e eficiência energética.",
+      "indicado": "Alunos ligados em ciências exatas, meio ambiente, tecnologia limpa e futuro sustentável.",
+      "carga": "1.200h"
+    },
+    {
+      "imagem": "curso-admin.jpg",
+      "tag": "Gestão & Negócios",
+      "tagCor": "accent",
+      "titulo": "Administração com Ênfase em Empreendedorismo",
+      "oferece": "Gestão empresarial, finanças, marketing, vendas e elaboração de plano de negócios.",
+      "indicado": "Jovens com espírito empreendedor que querem abrir ou gerenciar um negócio próprio.",
+      "carga": "1.000h"
+    },
+    {
+      "imagem": "curso-seguranca.jpg",
+      "tag": "Saúde & Segurança",
+      "tagCor": "secondary",
+      "titulo": "Segurança do Trabalho",
+      "oferece": "Prevenção de acidentes, normas regulamentadoras (NR's), ergonomia e gestão de segurança.",
+      "indicado": "Estudantes interessados em segurança, saúde ocupacional e ambientes industriais.",
+      "carga": "1.200h"
+    }
+  ]
+}

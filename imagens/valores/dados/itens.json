@@ -1,0 +1,28 @@
+{
+  "itens": [
+    {
+      "icone": "menu_book",
+      "titulo": "Excelência",
+      "texto": "Ensino consistente focado no desenvolvimento integral do estudante.",
+      "cor": "primary"
+    },
+    {
+      "icone": "code",
+      "titulo": "Prática Técnica",
+      "texto": "Laboratórios ativos onde os estudantes aprendem fazendo projetos reais.",
+      "cor": "secondary"
+    },
+    {
+      "icone": "eco",
+      "titulo": "Cidadania",
+      "texto": "Ética, sustentabilidade e respeito à comunidade de Parnaíba.",
+      "cor": "accent"
+    },
+    {
+      "icone": "psychology",
+      "titulo": "Protagonismo",
+      "texto": "Estímulo à liderança, autonomia e espírito de equipe nos jovens.",
+      "cor": "primary"
+    }
+  ]
+}

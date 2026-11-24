@@ -1,0 +1,36 @@
+{
+  "membros": [
+    {
+      "foto": "equipe-helena.jpg",
+      "nome": "Helena Vasconcelos",
+      "cargo": "Diretora Pedagógica",
+      "cor": "primary",
+      "formacao": "Doutora em Gestão Escolar",
+      "descricao": "Acolhedora, ouvinte atenta e dedicada à formação integral dos jovens."
+    },
+    {
+      "foto": "equipe-rodrigo.jpg",
+      "nome": "Rodrigo Mendes",
+      "cargo": "Dev. de Sistemas",
+      "cor": "secondary",
+      "formacao": "Mestre em Computação",
+      "descricao": "Dinâmico e focado em ensinar programação por desafios práticos."
+    },
+    {
+      "foto": "equipe-mariana.jpg",
+      "nome": "Mariana Takahashi",
+      "cargo": "Jogos Digitais",
+      "cor": "accent",
+      "formacao": "Especialista em Game Design",
+      "descricao": "Criativa e motivadora, estimula a imaginação e arte interativa."
+    },
+    {
+      "foto": "equipe-fernando.jpg",
+      "nome": "Fernando Alcântara",
+      "cargo": "Energias Renováveis",
+      "cor": "secondary",
+      "formacao": "Engenheiro Eletricista",
+      "descricao": "Metódico e apaixonado por bancadas práticas de energia solar."
+    }
+  ]
+}

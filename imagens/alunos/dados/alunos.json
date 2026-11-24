@@ -1,0 +1,28 @@
+{
+  "alunos": [
+    {
+      "foto": "aluno-lucas.jpg",
+      "nome": "Lucas Silveira",
+      "linha": "Dev. de Sistemas • 3º Ano",
+      "linhaCor": "secondary",
+      "feito": "1º Lugar na Olimpíada de Robótica com protótipo autônomo.",
+      "fotoBorda": "primary"
+    },
+    {
+      "foto": "aluno-beatriz.jpg",
+      "nome": "Beatriz Fontes",
+      "linha": "Energias Renováveis • 2º Ano",
+      "linhaCor": "secondary",
+      "feito": "Medalha de ouro na Feira de Ciências com artigo sobre placas solares.",
+      "fotoBorda": "secondary"
+    },
+    {
+      "foto": "aluno-gabriel.jpg",
+      "nome": "Gabriel Antunes",
+      "linha": "Jogos Digitais • 3º Ano",
+      "linhaCor": "accent",
+      "feito": "Jogo indie selecionado em mostra regional de desenvolvimento teen.",
+      "fotoBorda": "accent"
+    }
+  ]
+}

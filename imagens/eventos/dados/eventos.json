@@ -1,0 +1,28 @@
+{
+  "eventos": [
+    {
+      "titulo": "Feira de Ciências e Tecnologia",
+      "descricao": "Apresentação dos projetos práticos dos cursos técnicos à comunidade.",
+      "fotos": [
+        "evento1-1.jpg",
+        "evento1-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Hackathon Escolar 24h",
+      "descricao": "Maratona de criação de softwares e jogos educativos por equipes.",
+      "fotos": [
+        "evento2-1.jpg",
+        "evento2-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Jogos de Integração",
+      "descricao": "Torneios esportivos entre turmas do Fundamental e Médio.",
+      "fotos": [
+        "evento3-1.jpg",
+        "evento3-2.jpg"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-.topbar--hidden {
-  transform: translateY(-100%);
-}
-
-.topbar {
-  transition: transform 0.3s ease-out;
-}

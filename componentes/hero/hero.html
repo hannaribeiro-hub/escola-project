@@ -1,56 +1,8 @@
-<section id="inicio" class="relative w-full h-[870px] min-h-[560px] overflow-hidden bg-slate-900">
-      <div id="slide1" class="hero-item absolute inset-0 transition-opacity duration-700 opacity-100 z-10">
-        <img src="imagens/hero-1.jpg" alt="Campus CETI Dr. João Silva Filho" class="w-full h-full object-cover brightness-[0.70]">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent flex items-center">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 w-full">
-            <div class="max-w-xl text-white space-y-4">
-              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-white text-label-sm font-bold">Ensino Médio Integral • Manhã e Tarde</span>
-              <h1 class="font-headline font-extrabold text-display-lg-mobile md:text-display-lg leading-tight">Ensino integral com curso técnico integrado à grade.</h1>
-              <p class="text-body-md text-white/90 leading-relaxed">Formação completa para o Ensino Fundamental e Médio, preparando o estudante para a universidade e para o mercado de trabalho em uma só jornada.</p>
-              <div class="pt-2 flex items-center gap-3">
-                <a href="#cursos" class="px-6 py-3 rounded-full bg-primary hover:bg-primary/90 text-white font-headline text-label-md font-semibold transition-all">Ver os 4 Cursos Técnicos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="slide2" class="hero-item absolute inset-0 transition-opacity duration-700 opacity-0 z-0 pointer-events-none">
-        <img src="imagens/hero-2.jpg" alt="Laboratório de Informática e Jogos" class="w-full h-full object-cover brightness-[0.70]">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent flex items-center">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 w-full">
-            <div class="max-w-xl text-white space-y-4">
-              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent text-white text-label-sm font-bold">Tecnologia &amp; Inovação</span>
-              <h1 class="font-headline font-extrabold text-display-lg-mobile md:text-display-lg leading-tight">Desenvolvimento de Sistemas e Jogos Digitais.</h1>
-              <p class="text-body-md text-white/90 leading-relaxed">Laboratórios equipados para aulas práticas de programação, lógica e criação de games durante o contraturno.</p>
-              <div class="pt-2">
-                <a href="#cursos" class="px-6 py-3 rounded-full bg-white text-slate-900 font-headline text-label-md font-semibold hover:bg-slate-100 transition-all">Conhecer a Área Tech</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="slide3" class="hero-item absolute inset-0 transition-opacity duration-700 opacity-0 z-0 pointer-events-none">
-        <img src="imagens/hero-3.jpg" alt="Energias Renováveis e Sustentabilidade" class="w-full h-full object-cover brightness-[0.70]">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent flex items-center">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 w-full">
-            <div class="max-w-xl text-white space-y-4">
-              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-white text-label-sm font-bold">Futuro Sustentável</span>
-              <h1 class="font-headline font-extrabold text-display-lg-mobile md:text-display-lg leading-tight">Energias Renováveis e Marketing Digital.</h1>
-              <p class="text-body-md text-white/90 leading-relaxed">Cursos alinhados às vocações econômicas do Piauí e às tendências globais de sustentabilidade e negócios.</p>
-              <div class="pt-2">
-                <a href="#cursos" class="px-6 py-3 rounded-full bg-secondary text-white font-headline text-label-md font-semibold hover:bg-secondary/90 transition-all">Ver Grade Curricular</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<section id="inicio" class="relative w-full h-screen min-h-[560px] overflow-hidden bg-slate-900">
+      <div id="heroSlides"></div>
       <div class="absolute bottom-6 left-0 right-0 z-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-          <div class="flex items-center gap-2">
-            <button id="dot1" onclick="setSlide(0)" class="w-8 h-2 rounded-full bg-secondary transition-all" aria-label="Slide 1"></button>
-            <button id="dot2" onclick="setSlide(1)" class="w-2.5 h-2 rounded-full bg-white/40 transition-all" aria-label="Slide 2"></button>
-            <button id="dot3" onclick="setSlide(2)" class="w-2.5 h-2 rounded-full bg-white/40 transition-all" aria-label="Slide 3"></button>
-          </div>
+          <div id="heroDots" class="flex items-center gap-2"></div>
           <div class="flex items-center gap-2">
             <button onclick="prevSlide()" class="w-10 h-10 rounded-full bg-black/40 hover:bg-white text-white hover:text-slate-900 border border-white/20 flex items-center justify-center transition-all" aria-label="Anterior">
               <span class="material-symbols-outlined text-[20px]">arrow_back</span>
