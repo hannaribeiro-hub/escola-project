@@ -4,6 +4,7 @@
       "titulo": "Feira de Ciências e Tecnologia",
       "descricao": "Apresentação dos projetos práticos dos cursos técnicos à comunidade.",
       "fotos": [
+        "evento-geral.jpg",
         "evento1-1.jpg",
         "evento1-2.jpg"
       ]
@@ -13,7 +14,8 @@
       "descricao": "Maratona de criação de softwares e jogos educativos por equipes.",
       "fotos": [
         "evento2-1.jpg",
-        "evento2-2.jpg"
+        "evento2-2.jpg",
+        "evento-geral.jpg"
       ]
     },
     {
@@ -21,7 +23,35 @@
       "descricao": "Torneios esportivos entre turmas do Fundamental e Médio.",
       "fotos": [
         "evento3-1.jpg",
-        "evento3-2.jpg"
+        "evento3-2.jpg",
+        "evento-geral.jpg"
+      ]
+    },
+    {
+      "titulo": "Mostra de Jogos & Gamedev",
+      "descricao": "Exposição dos jogos criados pelos alunos do curso de Desenvolvimento de Jogos.",
+      "fotos": [
+        "evento1-2.jpg",
+        "evento2-1.jpg",
+        "evento-geral.jpg"
+      ]
+    },
+    {
+      "titulo": "Semana de Projetos Integradores",
+      "descricao": "Apresentação de projetos interdisciplinares desenvolvidos em equipe pelos estudantes.",
+      "fotos": [
+        "evento1-1.jpg",
+        "evento3-1.jpg",
+        "evento-geral.jpg"
+      ]
+    },
+    {
+      "titulo": "Cerimônia de Premiação Anual",
+      "descricao": "Reconhecimento dos melhores alunos, projetos e equipes do ano letivo.",
+      "fotos": [
+        "evento2-2.jpg",
+        "evento3-2.jpg",
+        "evento-geral.jpg"
       ]
     }
   ]

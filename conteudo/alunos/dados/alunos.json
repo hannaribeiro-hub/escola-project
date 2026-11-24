@@ -1,73 +1,73 @@
 {
   "alunos": [
     {
-      "foto": "aluno-lucas.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Lucas Silveira",
-      "linha": "Dev. de Sistemas • 3º Ano",
+      "linha": "Dev. de Sistemas",
       "linhaCor": "secondary",
       "feito": "1º Lugar na Olimpíada de Robótica com protótipo autônomo.",
       "fotoBorda": "primary"
     },
     {
-      "foto": "aluno-beatriz.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Beatriz Fontes",
-      "linha": "Energias Renováveis • 2º Ano",
+      "linha": "Energias Renováveis",
       "linhaCor": "secondary",
       "feito": "Medalha de ouro na Feira de Ciências com artigo sobre placas solares.",
       "fotoBorda": "secondary"
     },
     {
-      "foto": "aluno-gabriel.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Gabriel Antunes",
-      "linha": "Jogos Digitais • 3º Ano",
+      "linha": "Jogos Digitais",
       "linhaCor": "accent",
       "feito": "Jogo indie selecionado em mostra regional de desenvolvimento teen.",
       "fotoBorda": "accent"
     },
     {
-      "foto": "aluno-ana.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Ana Beatriz Rocha",
-      "linha": "Marketing • 2º Ano",
+      "linha": "Marketing",
       "linhaCor": "primary",
       "feito": "Criou campanha de divulgação para feira cultural da escola com mais de 500 visualizações.",
       "fotoBorda": "secondary"
     },
     {
-      "foto": "aluno-pedro.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Pedro Henrique Lima",
-      "linha": "Segurança do Trabalho • 3º Ano",
+      "linha": "Segurança do Trabalho",
       "linhaCor": "accent",
       "feito": "Desenvolveu projeto de sinalização de segurança para o laboratório da escola.",
       "fotoBorda": "primary"
     },
     {
-      "foto": "aluno-maria.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Maria Fernanda Alves",
-      "linha": "Administração • 3º Ano",
+      "linha": "Administração",
       "linhaCor": "secondary",
       "feito": "Elaborou plano de negócios premiado em feira de empreendedorismo estudantil.",
       "fotoBorda": "accent"
     },
     {
-      "foto": "aluno-joao.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "João Pedro Santos",
-      "linha": "Dev. de Sistemas • 2º Ano",
+      "linha": "Dev. de Sistemas",
       "linhaCor": "primary",
       "feito": "Programou sistema de gestão de empréstimos da biblioteca escolar.",
       "fotoBorda": "secondary"
     },
     {
-      "foto": "aluno-sofia.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Sofia Martins",
-      "linha": "Energias Renováveis • 1º Ano",
+      "linha": "Energias Renováveis",
       "linhaCor": "accent",
       "feito": "Apresentou maquete de casa sustentáveis com painel solar na mostra de ciências.",
       "fotoBorda": "primary"
     },
     {
-      "foto": "aluno-enzo.jpg",
+      "foto": "aluno-premiado.jpg",
       "nome": "Enzo Carvalho",
-      "linha": "Jogos Digitais • 1º Ano",
+      "linha": "Jogos Digitais",
       "linhaCor": "secondary",
       "feito": "Primeiro lugar no torneio interno de games da escola.",
       "fotoBorda": "accent"

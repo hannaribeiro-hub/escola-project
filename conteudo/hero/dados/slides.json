@@ -1,7 +1,7 @@
 {
   "slides": [
     {
-      "imagem": "slide-sistemas.jpg",
+      "imagem": "escola-1.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "secondary",
       "titulo": "Técnico em Desenvolvimento de Sistemas",
@@ -11,7 +11,7 @@
       "href": "#cursos"
     },
     {
-      "imagem": "slide-admin.jpg",
+      "imagem": "escola-2.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Administração com Ênfase em Empreendedorismo",
@@ -21,7 +21,7 @@
       "href": "#cursos"
     },
     {
-      "imagem": "slide-jogos.jpg",
+      "imagem": "escola-3.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Desenvolvimento de Jogos",
@@ -31,7 +31,7 @@
       "href": "#cursos"
     },
     {
-      "imagem": "slide-energias.jpg",
+      "imagem": "escola-4.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "secondary",
       "titulo": "Técnico em Energias Renováveis",
@@ -41,7 +41,7 @@
       "href": "#cursos"
     },
     {
-      "imagem": "slide-marketing.jpg",
+      "imagem": "escola-5.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "primary",
       "titulo": "Técnico em Marketing",
@@ -51,7 +51,7 @@
       "href": "#cursos"
     },
     {
-      "imagem": "slide-seguranca.jpg",
+      "imagem": "escola-6.jpg",
       "selo": "Ensino Médio Integrado",
       "seloCor": "accent",
       "titulo": "Técnico em Segurança do Trabalho",
