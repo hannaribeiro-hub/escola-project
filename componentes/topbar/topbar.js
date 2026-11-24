@@ -1,16 +1,16 @@
 (function () {
-  const jornada = document.querySelector('.topbar-jornada');
-  if (!jornada) return;
+  const topbar = document.querySelector('body > aside');
+  if (!topbar) return;
+  topbar.classList.add('topbar');
 
-  const agora = new Date();
-  const minutos = agora.getHours() * 60 + agora.getMinutes();
-  const inicio = 7 * 60 + 30;
-  const fim = 16 * 60 + 45;
-  const diaUtil = agora.getDay() >= 1 && agora.getDay() <= 5;
-  const aberto = diaUtil && minutos >= inicio && minutos <= fim;
-
-  const badge = document.createElement('span');
-  badge.className = `topbar-status ${aberto ? 'topbar-status--open' : 'topbar-status--closed'}`;
-  badge.textContent = aberto ? 'Secretaria aberta' : 'Fora do expediente';
-  jornada.insertAdjacentElement('afterend', badge);
+  let ultimoY = window.scrollY;
+  window.addEventListener(
+    'scroll',
+    () => {
+      const y = window.scrollY;
+      topbar.classList.toggle('topbar--hidden', y > 80 && y > ultimoY);
+      ultimoY = y;
+    },
+    { passive: true }
+  );
 })();

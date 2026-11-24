@@ -1,0 +1,26 @@
+#cursos .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+#cursos .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+#cursos .bg-white img {
+  transition: transform 0.5s ease-out;
+}
+
+#cursos .bg-white:hover img {
+  transform: scale(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #cursos .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

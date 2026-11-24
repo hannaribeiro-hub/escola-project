@@ -3,39 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CETI Parnaíba — Ensino Médio de Tempo Integral</title>
+  <title>CETI DR. João Silva Filho — Parnaíba/PI</title>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <script id="tailwind-config" data-stitch-original-src="8eb3c598e05f47bf===../../tailwind.config.js">/** @type {import('tailwindcss').Config} */
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
 globalThis.tailwind = globalThis.tailwind || {};
 globalThis.tailwind.config = {
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        'accent': '#9A3412',
-        'light-primary': '#1B365D',
-        'light-on-primary': '#FFFFFF',
-        'light-secondary': '#1E6B4B',
-        'light-on-secondary': '#FFFFFF',
-        'light-surface': '#F8FAFC',
-        'light-on-surface': '#0F172A',
-        'light-surface-container': '#EDF2F7',
-        'light-on-surface-container': '#1E293B',
-        'dark-primary': '#93C5FD',
-        'dark-on-primary': '#0F172A',
-        'dark-secondary': '#86EFAC',
-        'dark-on-secondary': '#064E3B',
-        'dark-surface': '#0F172A',
-        'dark-on-surface': '#F8FAFC',
-        'dark-surface-container': '#1E293B',
-        'dark-on-surface-container': '#E2E8F0',
+        'primary': '#034ea2',
+        'on-primary': '#ffffff',
+        'secondary': '#029545',
+        'on-secondary': '#ffffff',
+        'accent': '#b80201',
+        'on-accent': '#ffffff',
+        'light-primary': '#034ea2',
+        'light-on-primary': '#ffffff',
+        'light-secondary': '#029545',
+        'light-on-secondary': '#191919',
+        'light-surface': '#ffffff',
+        'light-on-surface': '#1e293b',
+        'light-surface-variant': '#f8fafc',
+        'light-on-surface-variant': '#475569',
+        'light-outline': '#cbd5e1',
+        'dark-primary': '#60a5fa',
+        'dark-on-primary': '#0b192c',
+        'dark-secondary': '#34d399',
+        'dark-on-secondary': '#022c15',
+        'dark-surface': '#0f172a',
+        'dark-on-surface': '#f8fafc',
+        'dark-surface-variant': '#1e293b',
+        'dark-on-surface-variant': '#94a3b8',
+        'dark-outline': '#334155',
       },
       borderRadius: {
         'sm': '6px',
-        'DEFAULT': '8px',
-        'md': '12px',
-        'lg': '16px',
-        'xl': '24px',
+        'DEFAULT': '12px',
+        'md': '16px',
+        'lg': '24px',
+        'xl': '32px',
         'full': '9999px',
       },
       spacing: {
@@ -44,36 +51,36 @@ globalThis.tailwind.config = {
         'gutter-md': '16px',
         'gutter-lg': '24px',
         'gutter-xl': '32px',
-        'section': '64px',
+        'section-sm': '48px',
+        'section': '80px',
+        'section-lg': '96px',
         'page-margin': '24px',
       },
       fontFamily: {
-        'display': ['"PT Serif"', 'sans-serif'],
-        'headline': ['"PT Serif"', 'sans-serif'],
-        'title': ['"PT Sans"', 'sans-serif'],
-        'body': ['"PT Sans"', 'sans-serif'],
-        'label': ['"PT Sans"', 'sans-serif'],
+        'display': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'headline': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'body': ['"Inter"', 'sans-serif'],
+        'label': ['"Plus Jakarta Sans"', 'sans-serif'],
       },
       fontSize: {
-        'display-lg': ['48px', { lineHeight: '56px', letterSpacing: '-0.5px', fontWeight: '700' }],
-        'display-lg-mobile': ['32px', { lineHeight: '40px', letterSpacing: '-0.25px', fontWeight: '700' }],
-        'headline-lg': ['36px', { lineHeight: '44px', letterSpacing: '-0.25px', fontWeight: '700' }],
-        'headline-lg-mobile': ['28px', { lineHeight: '36px', fontWeight: '700' }],
-        'headline-md': ['28px', { lineHeight: '36px', fontWeight: '600' }],
-        'headline-sm': ['22px', { lineHeight: '28px', fontWeight: '600' }],
-        'title-lg': ['20px', { lineHeight: '28px', fontWeight: '700' }],
-        'title-md': ['18px', { lineHeight: '24px', fontWeight: '600' }],
-        'title-sm': ['16px', { lineHeight: '22px', fontWeight: '600' }],
+        'display-lg': ['48px', { lineHeight: '56px', letterSpacing: '-1px', fontWeight: '800' }],
+        'display-lg-mobile': ['32px', { lineHeight: '38px', letterSpacing: '-0.5px', fontWeight: '800' }],
+        'display-md': ['40px', { lineHeight: '48px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-md-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['32px', { lineHeight: '40px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'headline-lg-mobile': ['24px', { lineHeight: '30px', letterSpacing: '-0.2px', fontWeight: '700' }],
+        'headline-md': ['24px', { lineHeight: '32px', fontWeight: '600' }],
+        'headline-sm': ['20px', { lineHeight: '28px', fontWeight: '600' }],
         'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
         'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
         'body-sm': ['14px', { lineHeight: '20px', fontWeight: '400' }],
-        'label-lg': ['15px', { lineHeight: '20px', fontWeight: '700' }],
+        'label-lg': ['15px', { lineHeight: '20px', fontWeight: '600' }],
         'label-md': ['13px', { lineHeight: '18px', fontWeight: '600' }],
-        'label-sm': ['11px', { lineHeight: '16px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '16px', fontWeight: '700' }],
       },
       transitionDuration: {
         'state-change': '150ms',
-        'surface-enter': '250ms',
+        'surface-enter': '300ms',
       },
       transitionDelay: {
         'state-change': '0ms',
@@ -81,52 +88,38 @@ globalThis.tailwind.config = {
       },
       transitionTimingFunction: {
         'state-change': 'ease-out',
-        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+        'surface-enter': 'cubic-bezier(0.16, 1, 0.3, 1)',
       },
     },
   },
 };
 if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
 </script>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;600;700&amp;family=PT+Sans:wght@400;600;700&amp;family=PT+Mono&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
-  <style>
-    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      line-height: 1 !important;
-      box-sizing: content-box;
-      overflow: hidden;
-      white-space: nowrap;
-      direction: ltr;
-      vertical-align: middle;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="componentes/topbar/topbar.css">
   <link rel="stylesheet" href="componentes/header/header.css">
   <link rel="stylesheet" href="componentes/hero/hero.css">
-  <link rel="stylesheet" href="componentes/sobre/sobre.css">
-  <link rel="stylesheet" href="componentes/integral/integral.css">
-  <link rel="stylesheet" href="componentes/itinerarios/itinerarios.css">
-  <link rel="stylesheet" href="componentes/estrutura/estrutura.css">
-  <link rel="stylesheet" href="componentes/matriculas/matriculas.css">
-  <link rel="stylesheet" href="componentes/contato/contato.css">
+  <link rel="stylesheet" href="componentes/resumo/resumo.css">
+  <link rel="stylesheet" href="componentes/valores/valores.css">
+  <link rel="stylesheet" href="componentes/cursos/cursos.css">
+  <link rel="stylesheet" href="componentes/equipe/equipe.css">
+  <link rel="stylesheet" href="componentes/destaques/destaques.css">
   <link rel="stylesheet" href="componentes/rodape/rodape.css">
 </head>
-<body class="bg-light-surface text-light-on-surface font-body antialiased selection:bg-light-primary selection:text-light-on-primary">
-  <div class="min-h-screen flex flex-col justify-between">
+<body class="bg-white text-light-on-surface font-body min-h-[1024px] antialiased selection:bg-primary selection:text-white">
     <div data-component="topbar"></div>
     <div data-component="header"></div>
     <div data-component="hero"></div>
-    <div data-component="sobre"></div>
-    <div data-component="integral"></div>
-    <div data-component="itinerarios"></div>
-    <div data-component="estrutura"></div>
-    <div data-component="matriculas"></div>
-    <div data-component="contato"></div>
+    <div data-component="resumo"></div>
+    <div data-component="valores"></div>
+    <div data-component="cursos"></div>
+    <div data-component="equipe"></div>
+    <div data-component="destaques"></div>
     <div data-component="rodape"></div>
-  </div>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -2,12 +2,11 @@ const COMPONENTS = [
   'topbar',
   'header',
   'hero',
-  'sobre',
-  'integral',
-  'itinerarios',
-  'estrutura',
-  'matriculas',
-  'contato',
+  'resumo',
+  'valores',
+  'cursos',
+  'equipe',
+  'destaques',
   'rodape'
 ];
 

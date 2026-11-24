@@ -1,28 +1,37 @@
-<header class="sticky top-0 z-40 bg-white/95 border-b border-light-surface-container shadow-sm">
-      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" class="flex items-center gap-3 group">
-          <div class="w-11 h-11 rounded-DEFAULT bg-light-primary text-light-on-primary flex items-center justify-center font-headline font-bold text-title-lg shadow-sm group-hover:scale-105 transition-transform duration-state-change">
-            CP
-          </div>
-          <div>
-            <span class="block font-headline font-bold text-title-md text-light-primary leading-tight" data-design-text-token="title-md">CETI Parnaíba</span>
-            <span class="block font-body text-label-sm text-light-on-surface-container" data-design-text-token="label-sm">Centro Estadual de Tempo Integral</span>
-          </div>
-        </a>
-
-        <nav class="hidden lg:flex items-center gap-8 font-body text-body-sm font-medium" aria-label="Navegação do Portal">
-          <a href="#sobre" class="text-light-on-surface hover:text-light-primary transition-colors">Sobre a Escola</a>
-          <a href="#integral" class="text-light-on-surface hover:text-light-primary transition-colors">Modelo Integral</a>
-          <a href="#itinerarios" class="text-light-on-surface hover:text-light-primary transition-colors">Cursos &amp; Eletivas</a>
-          <a href="#estrutura" class="text-light-on-surface hover:text-light-primary transition-colors">Estrutura</a>
-          <a href="#matriculas" class="text-light-on-surface hover:text-light-primary transition-colors">Matrículas</a>
-          <a href="#contato" class="text-light-on-surface hover:text-light-primary transition-colors">Contato</a>
-        </nav>
-
-        <div class="flex items-center gap-3">
-          <a href="#matriculas" data-component-id="button-primary-nav" data-component-type="button" data-component-variant="primary" class="inline-flex items-center justify-center px-5 py-2.5 rounded-DEFAULT bg-light-primary text-light-on-primary font-label text-label-md hover:opacity-90 active:scale-95 transition-all duration-state-change shadow-sm">
-            <span data-design-text-token="label-md">Pré-Matrícula 2027</span>
-          </a>
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <a href="#inicio" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-lg bg-primary flex items-center justify-center text-white">
+          <span class="material-symbols-outlined text-[26px]">school</span>
         </div>
+        <div>
+          <span class="font-headline font-bold text-headline-sm text-primary tracking-tight block leading-tight">
+            CETI <span class="text-secondary">DR. JOÃO SILVA FILHO</span>
+          </span>
+          <span class="text-[11px] font-headline text-slate-500 font-medium block">
+            Parnaíba • Piauí
+          </span>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8" aria-label="Navegação Principal">
+        <a href="#inicio" class="font-headline text-label-lg text-primary font-bold hover:text-secondary transition-colors">Início</a>
+        <a href="#cursos" class="font-headline text-label-lg text-slate-600 hover:text-primary transition-colors font-medium">Cursos</a>
+        <a href="#equipe" class="font-headline text-label-lg text-slate-600 hover:text-primary transition-colors font-medium">Equipe</a>
+        <a href="#destaques" class="font-headline text-label-lg text-slate-600 hover:text-primary transition-colors font-medium">Destaques</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#cursos" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-white font-headline text-label-md font-semibold hover:bg-primary/95 transition-all">
+          <span>Conhecer Cursos</span>
+          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+        </a>
+        <button type="button" id="btnMobileMenu" class="md:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100" aria-label="Abrir Menu">
+          <span class="material-symbols-outlined text-[26px]">menu</span>
+        </button>
       </div>
-    </header>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-100 px-6 py-4 space-y-3">
+      <a href="#inicio" class="mobile-link block py-2 font-headline text-primary font-bold">Início</a>
+      <a href="#cursos" class="mobile-link block py-2 font-headline text-slate-700 font-medium">Cursos</a>
+      <a href="#equipe" class="mobile-link block py-2 font-headline text-slate-700 font-medium">Equipe</a>
+      <a href="#destaques" class="mobile-link block py-2 font-headline text-slate-700 font-medium">Destaques</a>
+    </div></header>

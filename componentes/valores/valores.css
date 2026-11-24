@@ -1,0 +1,18 @@
+#valores .grid > div.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+#valores .grid > div.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #valores .grid > div.reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

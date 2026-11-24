@@ -1,20 +1,7 @@
-.topbar-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-left: 8px;
-  padding: 1px 8px;
-  border-radius: 9999px;
-  font-size: 11px;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+.topbar--hidden {
+  transform: translateY(-100%);
 }
 
-.topbar-status--open {
-  color: #bbf7d0;
-}
-
-.topbar-status--closed {
-  color: #fecaca;
+.topbar {
+  transition: transform 0.3s ease-out;
 }

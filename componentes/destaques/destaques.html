@@ -1,0 +1,89 @@
+<section id="destaques" class="py-20 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="mb-16">
+          <div class="mb-8">
+            <span class="text-secondary font-headline text-label-sm font-bold uppercase tracking-wider">Reconhecimento</span>
+            <h2 class="font-headline font-bold text-headline-md text-primary mt-1">Alunos Destaques</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-5 rounded-xl border border-slate-200 flex items-start gap-4">
+              <img src="imagens/aluno-lucas.jpg" alt="Lucas Silveira" class="w-14 h-14 rounded-full object-cover border-2 border-primary flex-shrink-0">
+              <div>
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg">Lucas Silveira</h4>
+                <span class="text-secondary text-[13px] font-semibold block">Dev. de Sistemas • 3º Ano</span>
+                <p class="text-body-sm text-slate-600 mt-1">1º Lugar na Olimpíada de Robótica com protótipo autônomo.</p>
+              </div>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 flex items-start gap-4">
+              <img src="imagens/aluno-beatriz.jpg" alt="Beatriz Fontes" class="w-14 h-14 rounded-full object-cover border-2 border-secondary flex-shrink-0">
+              <div>
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg">Beatriz Fontes</h4>
+                <span class="text-secondary text-[13px] font-semibold block">Energias Renováveis • 2º Ano</span>
+                <p class="text-body-sm text-slate-600 mt-1">Medalha de ouro na Feira de Ciências com artigo sobre placas solares.</p>
+              </div>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 flex items-start gap-4">
+              <img src="imagens/aluno-gabriel.jpg" alt="Gabriel Antunes" class="w-14 h-14 rounded-full object-cover border-2 border-accent flex-shrink-0">
+              <div>
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg">Gabriel Antunes</h4>
+                <span class="text-accent text-[13px] font-semibold block">Jogos Digitais • 3º Ano</span>
+                <p class="text-body-sm text-slate-600 mt-1">Jogo indie selecionado em mostra regional de desenvolvimento teen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="mb-8">
+            <span class="text-secondary font-headline text-label-sm font-bold uppercase tracking-wider">Vida Escolar</span>
+            <h2 class="font-headline font-bold text-headline-md text-primary mt-1">Eventos Recentes</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-xl overflow-hidden border border-slate-200">
+              <div class="relative h-48 w-full overflow-hidden bg-slate-900">
+                <div id="evTrack1" class="flex w-full h-full transition-transform duration-300">
+                  <img src="imagens/evento1-1.jpg" alt="Feira de Ciências" class="w-full h-full object-cover flex-shrink-0">
+                  <img src="imagens/evento1-2.jpg" alt="Projetos da feira" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <button onclick="nextEv('evTrack1', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center" aria-label="Ver próxima foto">
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </button>
+              </div>
+              <div class="p-5">
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg mb-1">Feira de Ciências e Tecnologia</h4>
+                <p class="text-body-sm text-slate-600">Apresentação dos projetos práticos dos cursos técnicos à comunidade.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden border border-slate-200">
+              <div class="relative h-48 w-full overflow-hidden bg-slate-900">
+                <div id="evTrack2" class="flex w-full h-full transition-transform duration-300">
+                  <img src="imagens/evento2-1.jpg" alt="Hackathon" class="w-full h-full object-cover flex-shrink-0">
+                  <img src="imagens/evento2-2.jpg" alt="Premiação" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <button onclick="nextEv('evTrack2', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center" aria-label="Ver próxima foto">
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </button>
+              </div>
+              <div class="p-5">
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg mb-1">Hackathon Escolar 24h</h4>
+                <p class="text-body-sm text-slate-600">Maratona de criação de softwares e jogos educativos por equipes.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden border border-slate-200">
+              <div class="relative h-48 w-full overflow-hidden bg-slate-900">
+                <div id="evTrack3" class="flex w-full h-full transition-transform duration-300">
+                  <img src="imagens/evento3-1.jpg" alt="Jogos Escolares" class="w-full h-full object-cover flex-shrink-0">
+                  <img src="imagens/hero-1.jpg" alt="Pátio da escola" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <button onclick="nextEv('evTrack3', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center" aria-label="Ver próxima foto">
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </button>
+              </div>
+              <div class="p-5">
+                <h4 class="font-headline font-bold text-slate-900 text-label-lg mb-1">Jogos de Integração</h4>
+                <p class="text-body-sm text-slate-600">Torneios esportivos entre turmas do Fundamental e Médio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
