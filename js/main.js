@@ -14,7 +14,7 @@ const COMPONENTS = [
 document.documentElement.classList.add('js');
 
 function loadComponent(name) {
-  return fetch(`componentes/${name}.html`)
+  return fetch(`componentes/${name}/${name}.html`)
     .then((res) => {
       if (!res.ok) throw new Error(`${name}.html: HTTP ${res.status}`);
       return res.text();
@@ -36,5 +36,5 @@ function loadScript(src) {
 }
 
 Promise.all(COMPONENTS.map(loadComponent))
-  .then(() => Promise.allSettled(COMPONENTS.map((n) => loadScript(`componentes/${n}.js`))))
+  .then(() => Promise.allSettled(COMPONENTS.map((n) => loadScript(`componentes/${n}/${n}.js`))))
   .catch((err) => console.error('Erro ao carregar componentes:', err));
