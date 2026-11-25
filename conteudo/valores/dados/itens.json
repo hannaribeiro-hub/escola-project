@@ -1,28 +1,33 @@
 {
   "itens": [
     {
-      "icone": "menu_book",
-      "titulo": "Excelência",
-      "texto": "Ensino consistente focado no desenvolvimento integral do estudante.",
+      "icone": "favorite",
+      "titulo": "Missão",
+      "texto": "Preparar o aluno, por meio da educação, para viver uma vida com ética e responsabilidade, com elevado caráter e desenvolvimento humano, a fim de colaborar positivamente para uma sociedade melhor.",
       "cor": "primary"
     },
     {
-      "icone": "code",
-      "titulo": "Prática Técnica",
-      "texto": "Laboratórios ativos onde os estudantes aprendem fazendo projetos reais.",
+      "icone": "visibility",
+      "titulo": "Visão",
+      "texto": "Ser referência pela qualidade de ensino, elevado grau de satisfação da comunidade escolar. Estimulando a criatividade, a curiosidade e o pensamento crítico com o intuito de desenvolver seres humanos mais ativos na sociedade e com maior capacidade de lidar com problemas e resolvê-los.",
       "cor": "secondary"
     },
     {
-      "icone": "eco",
-      "titulo": "Cidadania",
-      "texto": "Ética, sustentabilidade e respeito à comunidade de Parnaíba.",
+      "icone": "balance",
+      "titulo": "Princípios e Valores",
+      "texto": "A escola deve orientar seus alunos para além dos conteúdos didáticos e capacitá-los para a vida em sociedade, por isso, no Centro Estadual de Tempo Integral Doutor João Silva Filho são trabalhados os seguintes valores:",
+      "lista": [
+        "Responsabilidade",
+        "Disciplina",
+        "Ética",
+        "Respeito",
+        "Consciência",
+        "Tolerância",
+        "Democracia",
+        "Cooperação",
+        "Aplicação ao Trabalho"
+      ],
       "cor": "accent"
-    },
-    {
-      "icone": "psychology",
-      "titulo": "Protagonismo",
-      "texto": "Estímulo à liderança, autonomia e espírito de equipe nos jovens.",
-      "cor": "primary"
     }
   ]
 }

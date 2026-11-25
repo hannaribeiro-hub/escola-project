@@ -15,6 +15,13 @@
       "cor": "secondary",
       "formacao": "Português",
       "descricao": "Dedicada ao ensino de língua portuguesa, valoriza a leitura e a escrita como ferramentas de expressão e cidadania."
+    },{
+      "foto": "prof-regina.jpg",
+      "nome": "Maria Silva",
+      "cargo": "Professora",
+      "cor": "secondary",
+      "formacao": "Matemática",
+      "descricao": "Dedicada ao ensino de matemática, busca tornar os conceitos acessíveis e aplicáveis à vida cotidiana."
     }
   ]
 }
