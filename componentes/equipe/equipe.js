@@ -32,16 +32,12 @@
 
   function cardModal(m) {
     return `
-      <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex items-start gap-3">
-        ${m.foto
-          ? `<img src="${baseImg}${m.foto}" alt="${m.nome}" class="w-14 h-14 rounded-full object-cover border-2 border-${m.cor || 'primary'} flex-shrink-0">`
-          : `<div class="w-14 h-14 rounded-full bg-${m.cor || 'primary'}/10 text-${m.cor || 'primary'} flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[26px]">person</span></div>`}
-        <div class="min-w-0">
-          <h4 class="font-headline font-bold text-slate-900 text-label-lg leading-tight">${m.nome}</h4>
-          <span class="text-${m.cor || 'primary'} text-[13px] font-semibold block">${m.cargo}${m.disciplina ? ' • ' + m.disciplina : ''}</span>
-          <span class="text-[12px] text-slate-500 block mb-1">${m.formacao || ''}</span>
-          <p class="text-body-sm text-slate-600">${m.descricao || ''}</p>
-        </div>
+      <div class="p-5 rounded-xl border border-slate-200 bg-white flex flex-col items-center text-center">
+        ${avatarHtml(m, 'w-28 h-28')}
+        <h3 class="font-headline font-bold text-headline-sm text-slate-900">${m.nome}</h3>
+        <span class="text-body-sm font-semibold text-${m.cor || 'primary'} mb-1">${m.cargo}${m.disciplina ? ' • ' + m.disciplina : ''}</span>
+        <span class="text-[12px] text-slate-500 mb-3">${m.formacao || ''}</span>
+        <p class="text-body-sm text-slate-600">${m.descricao || ''}</p>
       </div>`;
   }
 
