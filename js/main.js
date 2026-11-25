@@ -7,6 +7,7 @@ const COMPONENTS = [
   'equipe',
   'alunos',
   'eventos',
+  'parcerias',
   'rodape'
 ];
 

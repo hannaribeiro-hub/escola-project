@@ -1,0 +1,28 @@
+{
+  "parcerias": [
+    {
+      "icone": "school",
+      "nome": "UESPI – Universidade Estadual do Piauí",
+      "introducao": "por meio do:",
+      "itens": [
+        "PIBID, Programa Institucional de Bolsa de Iniciação à Docência",
+        "Estágios supervisionados nas áreas de licenciatura",
+        "Participação em eventos científicos e pedagógicos",
+        "Ações extensionistas nas áreas de educação, direitos humanos e cultura"
+      ],
+      "cor": "primary"
+    },
+    {
+      "icone": "handshake",
+      "nome": "UFDPAR – Universidade Federal do Delta do Parnaíba",
+      "introducao": "através de:",
+      "itens": [
+        "Ações de extensão e pesquisa envolvendo alunos e professores",
+        "PIBID, Programa Institucional de Bolsa de Iniciação à Docência",
+        "Atividades em áreas como tecnologia, saúde, cidadania e meio ambiente",
+        "Apoio em projetos interdisciplinares e orientações acadêmicas"
+      ],
+      "cor": "secondary"
+    }
+  ]
+}
