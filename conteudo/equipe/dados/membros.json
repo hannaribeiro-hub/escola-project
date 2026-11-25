@@ -1,27 +1,474 @@
 {
   "membros": [
     {
-      "foto": "prof-quixaba.jpg",
-      "nome": "Lucivaldo Quixaba",
-      "cargo": "Professor",
+      "nome": "Adriana Franco da Silva",
+      "cargo": "Docente",
+      "disciplina": "Matemática",
+      "formacao": "Licenciatura em Matemática",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
-      "formacao": "Matemática e Robótica",
-      "descricao": "Apaixonado por matemática e robótica, transforma desafios em aprendizado prático e estimula o raciocínio lógico dos alunos."
+      "foto": null,
+      "visivel": true
     },
     {
-      "foto": "prof-regina.jpg",
-      "nome": "Regina Domingues",
-      "cargo": "Professora",
+      "nome": "Alessandra Costa Araujo",
+      "cargo": "Docente",
+      "disciplina": "Português",
+      "formacao": "Mestrado em Português",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
-      "formacao": "Português",
-      "descricao": "Dedicada ao ensino de língua portuguesa, valoriza a leitura e a escrita como ferramentas de expressão e cidadania."
-    },{
-      "foto": "prof-regina.jpg",
-      "nome": "Maria Silva",
-      "cargo": "Professora",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Ana Cristina Costa do Nascimento Pires",
+      "cargo": "Docente",
+      "disciplina": "Inglês",
+      "formacao": "Especialização em Inglês",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Anderson Fontenele Vieira",
+      "cargo": "Docente",
+      "disciplina": "Ciências",
+      "formacao": "Licenciatura em Ciências",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Andrea Cacau e Silva Pinto",
+      "cargo": "Docente",
+      "disciplina": "Física",
+      "formacao": "Mestrado em Física",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
-      "formacao": "Matemática",
-      "descricao": "Dedicada ao ensino de matemática, busca tornar os conceitos acessíveis e aplicáveis à vida cotidiana."
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Antonio Jose de Brito",
+      "cargo": "Docente",
+      "disciplina": "Química",
+      "formacao": "Especialização em Química",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Aurilene de Andrade Leal",
+      "cargo": "Docente",
+      "disciplina": "Biologia",
+      "formacao": "Licenciatura em Biologia",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Carina Pinto Gazze de Carvalho",
+      "cargo": "Docente",
+      "disciplina": "História",
+      "formacao": "Mestrado em História",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Clea Maria Machado de Alencar",
+      "cargo": "Docente",
+      "disciplina": "Geografia",
+      "formacao": "Especialização em Geografia",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Cristina Maria de Moraes Santos",
+      "cargo": "Docente",
+      "disciplina": "Filosofia",
+      "formacao": "Licenciatura em Filosofia",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Danilo Silva do Nascimento",
+      "cargo": "Docente",
+      "disciplina": "Sociologia",
+      "formacao": "Mestrado em Sociologia",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Debora dos Santos Costa",
+      "cargo": "Docente",
+      "disciplina": "Arte",
+      "formacao": "Especialização em Arte",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": true
+    },
+    {
+      "nome": "Diego Silva de Oliveira",
+      "cargo": "Docente",
+      "disciplina": "Educação Física",
+      "formacao": "Licenciatura em Educação Física",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francinara Araujo dos Santos",
+      "cargo": "Docente",
+      "disciplina": "Informática",
+      "formacao": "Mestrado em Informática",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francisca Maria do Nascimento Moreira Veras",
+      "cargo": "Docente",
+      "disciplina": "Robótica",
+      "formacao": "Especialização em Robótica",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francisco da Silva Cerqueira Freitas",
+      "cargo": "Docente",
+      "disciplina": "Matemática",
+      "formacao": "Licenciatura em Matemática",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francisco das Chagas Jose de Sousa",
+      "cargo": "Docente",
+      "disciplina": "Português",
+      "formacao": "Mestrado em Português",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francisco Delvânio de Santana Pereira",
+      "cargo": "Docente",
+      "disciplina": "Inglês",
+      "formacao": "Especialização em Inglês",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Francisco Regis da Silva Cunha",
+      "cargo": "Docente",
+      "disciplina": "Ciências",
+      "formacao": "Licenciatura em Ciências",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Gabriela Costa dos Santos Ribeiro",
+      "cargo": "Docente",
+      "disciplina": "Física",
+      "formacao": "Mestrado em Física",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Hilda Maria de Oliveira",
+      "cargo": "Docente",
+      "disciplina": "Química",
+      "formacao": "Especialização em Química",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Jefferson Cley Olimpio Silva",
+      "cargo": "Docente",
+      "disciplina": "Biologia",
+      "formacao": "Licenciatura em Biologia",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Joao Batista Pereira da Silva Junior",
+      "cargo": "Docente",
+      "disciplina": "História",
+      "formacao": "Mestrado em História",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Jose Diego Rocha Quaresma",
+      "cargo": "Docente",
+      "disciplina": "Geografia",
+      "formacao": "Especialização em Geografia",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Jose Honorato do Nascimento Neto",
+      "cargo": "Docente",
+      "disciplina": "Filosofia",
+      "formacao": "Licenciatura em Filosofia",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Karlla Lopes do Nascimento Castro",
+      "cargo": "Docente",
+      "disciplina": "Sociologia",
+      "formacao": "Mestrado em Sociologia",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Lays da Conceicao Silva",
+      "cargo": "Docente",
+      "disciplina": "Arte",
+      "formacao": "Especialização em Arte",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Livia Medeiros Freitas Souza",
+      "cargo": "Docente",
+      "disciplina": "Educação Física",
+      "formacao": "Licenciatura em Educação Física",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Luciana Silva de Abreu",
+      "cargo": "Docente",
+      "disciplina": "Informática",
+      "formacao": "Mestrado em Informática",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Lucivaldo Quixaba Ferreira",
+      "cargo": "Docente",
+      "disciplina": "Robótica",
+      "formacao": "Especialização em Robótica",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": "prof-quixaba.jpg",
+      "visivel": false
+    },
+    {
+      "nome": "Marcelo dos Santos Silva",
+      "cargo": "Docente",
+      "disciplina": "Matemática",
+      "formacao": "Licenciatura em Matemática",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Marcia Gabrielli Sousa Campelo",
+      "cargo": "Docente",
+      "disciplina": "Português",
+      "formacao": "Mestrado em Português",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Maria Adriane Carvalho de Oliveira",
+      "cargo": "Docente",
+      "disciplina": "Inglês",
+      "formacao": "Especialização em Inglês",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Maria Cleonice Souza dos Santos",
+      "cargo": "Docente",
+      "disciplina": "Ciências",
+      "formacao": "Licenciatura em Ciências",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Maria dos Aflitos Araujo Pereira",
+      "cargo": "Docente",
+      "disciplina": "Física",
+      "formacao": "Mestrado em Física",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Marilia Barros de Sousa Portugal",
+      "cargo": "Docente",
+      "disciplina": "Química",
+      "formacao": "Especialização em Química",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Paulo Adriano Ribeiro dos Santos",
+      "cargo": "Docente",
+      "disciplina": "Biologia",
+      "formacao": "Licenciatura em Biologia",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Pedro Teotonio de Azevedo Neto",
+      "cargo": "Docente",
+      "disciplina": "História",
+      "formacao": "Mestrado em História",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Rafaela de Morais Araujo",
+      "cargo": "Docente",
+      "disciplina": "Geografia",
+      "formacao": "Especialização em Geografia",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Ramerson Danilo Soares Rodrigues",
+      "cargo": "Docente",
+      "disciplina": "Filosofia",
+      "formacao": "Licenciatura em Filosofia",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Regina Maria de Morais Domingues Nascimento",
+      "cargo": "Docente",
+      "disciplina": "Sociologia",
+      "formacao": "Mestrado em Sociologia",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": "prof-regina.jpg",
+      "visivel": false
+    },
+    {
+      "nome": "Ricardo Pereira Alves",
+      "cargo": "Docente",
+      "disciplina": "Arte",
+      "formacao": "Especialização em Arte",
+      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Rodger Marques de Souza Feitosa",
+      "cargo": "Docente",
+      "disciplina": "Educação Física",
+      "formacao": "Licenciatura em Educação Física",
+      "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Rogeria Kecia Brito de Castro",
+      "cargo": "Docente",
+      "disciplina": "Informática",
+      "formacao": "Mestrado em Informática",
+      "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Rosilene dos Santos Galeno",
+      "cargo": "Docente",
+      "disciplina": "Robótica",
+      "formacao": "Especialização em Robótica",
+      "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
+      "cor": "accent",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Stephany Santos Cardoso",
+      "cargo": "Docente",
+      "disciplina": "Matemática",
+      "formacao": "Licenciatura em Matemática",
+      "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
+      "cor": "primary",
+      "foto": null,
+      "visivel": false
+    },
+    {
+      "nome": "Thiago Veras Galeno",
+      "cargo": "Docente",
+      "disciplina": "Português",
+      "formacao": "Mestrado em Português",
+      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "cor": "secondary",
+      "foto": null,
+      "visivel": false
     }
   ]
 }
