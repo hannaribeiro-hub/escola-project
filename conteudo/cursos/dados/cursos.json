@@ -13,7 +13,7 @@
       "imagem": "curso-jogos.jpg",
       "tag": "Games & Design",
       "tagCor": "accent",
-      "titulo": "Desenvolvimento de Jogos",
+      "titulo": "Desenvolvimento de Jogos Digitais",
       "oferece": "Criação de jogos 2D e 3D, programação em motores Unity, design de personagens, arte e animação.",
       "indicado": "Estudantes criativos apaixonados pelo universo dos games, narrativa e arte interativa.",
       "carga": "1.200h"
@@ -22,7 +22,7 @@
       "imagem": "curso-marketing.jpg",
       "tag": "Comunicação",
       "tagCor": "primary",
-      "titulo": "Marketing",
+      "titulo": "Marketing Digital",
       "oferece": "Redes sociais, marketing digital, produção de conteúdo, tráfego pago e gestão de marcas.",
       "indicado": "Pessoas comunicativas, criativas e que gostam de negócios, mídias e vendas.",
       "carga": "1.200h"
@@ -31,7 +31,7 @@
       "imagem": "curso-energias.jpg",
       "tag": "Sustentabilidade",
       "tagCor": "secondary",
-      "titulo": "Energias Renováveis",
+      "titulo": "Sistemas de Energia Renovável",
       "oferece": "Instalação e manutenção de painéis solares fotovoltaicos, energia eólica e eficiência energética.",
       "indicado": "Alunos ligados em ciências exatas, meio ambiente, tecnologia limpa e futuro sustentável.",
       "carga": "1.200h"
