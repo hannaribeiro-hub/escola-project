@@ -7,7 +7,8 @@
       "titulo": "Desenvolvimento de Sistemas",
       "oferece": "Lógica de programação, desenvolvimento web e mobile, banco de dados e computação em nuvem.",
       "indicado": "Jovens interessados em lógica, computação, criação de aplicativos e tecnologia.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
     },
     {
       "imagem": "curso-jogos.jpg",
@@ -16,7 +17,8 @@
       "titulo": "Programação de Jogos Digitais",
       "oferece": "Criação de jogos 2D e 3D, programação em motores Unity, design de personagens, arte e animação.",
       "indicado": "Estudantes criativos apaixonados pelo universo dos games, narrativa e arte interativa.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
     },
     {
       "imagem": "curso-marketing.jpg",
@@ -25,7 +27,8 @@
       "titulo": "Marketing Digital",
       "oferece": "Redes sociais, marketing digital, produção de conteúdo, tráfego pago e gestão de marcas.",
       "indicado": "Pessoas comunicativas, criativas e que gostam de negócios, mídias e vendas.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
     },
     {
       "imagem": "curso-energias.jpg",
@@ -34,7 +37,8 @@
       "titulo": "Sistemas de Energia Renovável",
       "oferece": "Instalação e manutenção de painéis solares fotovoltaicos, energia eólica e eficiência energética.",
       "indicado": "Alunos ligados em ciências exatas, meio ambiente, tecnologia limpa e futuro sustentável.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
     },
     {
       "imagem": "curso-admin.jpg",
@@ -43,7 +47,8 @@
       "titulo": "Administração com Ênfase em Empreendedorismo",
       "oferece": "Gestão empresarial, finanças, marketing, vendas e elaboração de plano de negócios.",
       "indicado": "Jovens com espírito empreendedor que querem abrir ou gerenciar um negócio próprio.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
     },
     {
       "imagem": "curso-seguranca.jpg",
@@ -52,7 +57,58 @@
       "titulo": "Segurança do Trabalho",
       "oferece": "Prevenção de acidentes, normas regulamentadoras (NR's), ergonomia e gestão de segurança.",
       "indicado": "Estudantes interessados em segurança, saúde ocupacional e ambientes industriais.",
-      "carga": "1.200h"
+      "carga": "1.200h",
+      "periodo": "integral"
+    },
+    {
+      "imagem": "curso-turismo.jpg",
+      "tag": "Turismo",
+      "tagCor": "accent",
+      "titulo": "Guia de Turismo",
+      "oferece": "Atendimento ao turista, guia em atrativos naturais e culturais, eventos e roteiros turísticos.",
+      "indicado": "Estudantes comunicativos interessados em viagens, cultura e atendimento.",
+      "carga": "800h",
+      "periodo": "noturno"
+    },
+    {
+      "imagem": "curso-admin.jpg",
+      "tag": "Gestão & Negócios",
+      "tagCor": "primary",
+      "titulo": "Administração",
+      "oferece": "Noções de gestão, finanças, marketing e rotinas administrativas.",
+      "indicado": "Jovens interessados em organização, negócios e trabalho em equipe.",
+      "carga": "800h",
+      "periodo": "noturno"
+    },
+    {
+      "imagem": "curso-farmacia.jpg",
+      "tag": "Saúde",
+      "tagCor": "secondary",
+      "titulo": "Farmácia",
+      "oferece": "Noções de medicamentos, dispensação, atendimento farmacêutico e saúde.",
+      "indicado": "Estudantes interessados na área da saúde e em carreiras farmacêuticas.",
+      "carga": "1.000h",
+      "periodo": "noturno"
+    },
+    {
+      "imagem": "curso-logistica.jpg",
+      "tag": "Logística",
+      "tagCor": "primary",
+      "titulo": "Logística",
+      "oferece": "Gestão de estoques, transporte, distribuição e cadeia de suprimentos.",
+      "indicado": "Alunos ligados a organização, comércio e gestão de operações.",
+      "carga": "800h",
+      "periodo": "noturno"
+    },
+    {
+      "imagem": "curso-informatica.jpg",
+      "tag": "TI & Software",
+      "tagCor": "accent",
+      "titulo": "Informática",
+      "oferece": "Noções de informática, pacote office, internet, redes e manutenção básica.",
+      "indicado": "Estudantes que desejam domínio de ferramentas digitais para o mercado de trabalho.",
+      "carga": "800h",
+      "periodo": "noturno"
     }
   ]
 }

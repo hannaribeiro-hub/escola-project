@@ -8,7 +8,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Alessandra Costa Araujo",
@@ -18,7 +20,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Ana Cristina Costa do Nascimento Pires",
@@ -28,7 +32,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Anderson Fontenele Vieira",
@@ -38,7 +44,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Andrea Cacau e Silva Pinto",
@@ -48,7 +56,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Antonio Jose de Brito",
@@ -58,7 +68,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": true
+      "visivel": true,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Aurilene de Andrade Leal",
@@ -68,7 +80,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Carina Pinto Gazze de Carvalho",
@@ -78,7 +92,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Clea Maria Machado de Alencar",
@@ -88,7 +104,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Cristina Maria de Moraes Santos",
@@ -98,7 +116,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Danilo Silva do Nascimento",
@@ -108,7 +128,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Debora dos Santos Costa",
@@ -118,7 +140,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": true
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Diego Silva de Oliveira",
@@ -128,7 +152,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francinara Araujo dos Santos",
@@ -138,7 +164,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francisca Maria do Nascimento Moreira Veras",
@@ -148,7 +176,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francisco da Silva Cerqueira Freitas",
@@ -158,7 +188,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francisco das Chagas Jose de Sousa",
@@ -168,7 +200,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francisco Delvânio de Santana Pereira",
@@ -178,7 +212,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Francisco Regis da Silva Cunha",
@@ -188,7 +224,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Gabriela Costa dos Santos Ribeiro",
@@ -198,7 +236,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Hilda Maria de Oliveira",
@@ -208,7 +248,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Jefferson Cley Olimpio Silva",
@@ -218,7 +260,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Joao Batista Pereira da Silva Junior",
@@ -228,7 +272,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Jose Diego Rocha Quaresma",
@@ -238,7 +284,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Jose Honorato do Nascimento Neto",
@@ -248,7 +296,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Karlla Lopes do Nascimento Castro",
@@ -258,7 +308,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Lays da Conceicao Silva",
@@ -268,7 +320,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Livia Medeiros Freitas Souza",
@@ -278,7 +332,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Luciana Silva de Abreu",
@@ -288,7 +344,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Lucivaldo Quixaba Ferreira",
@@ -298,7 +356,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": "prof-quixaba.jpg",
-      "visivel": false
+      "visivel": true,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Marcelo dos Santos Silva",
@@ -308,7 +368,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Marcia Gabrielli Sousa Campelo",
@@ -318,7 +380,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Maria Adriane Carvalho de Oliveira",
@@ -328,7 +392,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Maria Cleonice Souza dos Santos",
@@ -338,7 +404,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Maria dos Aflitos Araujo Pereira",
@@ -348,7 +416,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Marilia Barros de Sousa Portugal",
@@ -358,7 +428,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Paulo Adriano Ribeiro dos Santos",
@@ -368,7 +440,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Pedro Teotonio de Azevedo Neto",
@@ -378,7 +452,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Rafaela de Morais Araujo",
@@ -388,7 +464,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Ramerson Danilo Soares Rodrigues",
@@ -398,7 +476,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Regina Maria de Morais Domingues Nascimento",
@@ -408,7 +488,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": "prof-regina.jpg",
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Ricardo Pereira Alves",
@@ -418,7 +500,9 @@
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Rodger Marques de Souza Feitosa",
@@ -428,7 +512,9 @@
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Rogeria Kecia Brito de Castro",
@@ -438,7 +524,9 @@
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Rosilene dos Santos Galeno",
@@ -448,7 +536,9 @@
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Stephany Santos Cardoso",
@@ -458,7 +548,9 @@
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Thiago Veras Galeno",
@@ -468,7 +560,9 @@
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
-      "visivel": false
+      "visivel": false,
+      "turno": "noturno",
+      "periodo": "noturno"
     }
   ]
 }

@@ -1,12 +1,28 @@
 <section id="cursos" class="py-20 bg-slate-50 border-y border-slate-200">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
           <div>
             <span class="text-secondary font-headline text-label-sm font-bold uppercase tracking-wider">Formação Técnica Integrada</span>
             <h2 class="font-headline font-bold text-headline-lg text-primary mt-1">Cursos Técnicos Oferecidos</h2>
           </div>
-          <p class="text-body-sm text-slate-600 max-w-md">Integrados ao Ensino Médio em tempo integral (7:30 as 17:10). O aluno conclui as 3ª séries com registro profissional.</p>
+          <p id="cursosDesc" class="text-body-sm text-slate-600 max-w-md">Integrados ao Ensino Médio em tempo integral (7:30 às 17:30). O aluno conclui as 3ª séries com registro profissional ao finalizar os anos letivos.</p>
         </div>
-        <div id="cursosGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+
+        <div class="flex flex-wrap gap-3 mb-10">
+          <button id="tab-cursos-integral" onclick="mudarTurnoCursos('integral')" class="px-6 py-2.5 rounded-full font-headline text-label-md font-semibold transition-all bg-primary text-white border border-primary">
+            Ensino Integral
+          </button>
+          <button id="tab-cursos-noturno" onclick="mudarTurnoCursos('noturno')" class="px-6 py-2.5 rounded-full font-headline text-label-md font-semibold transition-all border border-slate-300 text-slate-600 hover:border-primary hover:text-primary">
+            EJA TEC Noturna
+          </button>
+        </div>
+
+        <div id="turno-cursos-integral">
+          <div id="cursosGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+        </div>
+
+        <div id="turno-cursos-noturno" class="hidden">
+          <div id="cursosEjaGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+        </div>
       </div>
     </section>

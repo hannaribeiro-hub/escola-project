@@ -1,25 +1,65 @@
 <section id="equipe" class="py-20 bg-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="flex items-center justify-between mb-10">
-          <div>
-            <span class="text-secondary font-headline text-label-sm font-bold uppercase tracking-wider">Corpo Docente</span>
-            <h2 class="font-headline font-bold text-headline-md text-primary mt-1">Gestores e Professores</h2>
+        <div class="mb-8">
+          <span class="text-secondary font-headline text-label-sm font-bold uppercase tracking-wider">Corpo Docente</span>
+          <h2 class="font-headline font-bold text-headline-md text-primary mt-1">Gestores e Professores</h2>
+        </div>
+
+        <div class="flex flex-wrap gap-3 mb-10">
+          <button id="tab-integral" onclick="mudarTurno('integral')" class="px-6 py-2.5 rounded-full font-headline text-label-md font-semibold transition-all bg-primary text-white">
+            Ensino Integral
+          </button>
+          <button id="tab-noturno" onclick="mudarTurno('noturno')" class="px-6 py-2.5 rounded-full font-headline text-label-md font-semibold transition-all border border-slate-300 text-slate-600 hover:border-primary hover:text-primary">
+            Ensino Noturno
+          </button>
+        </div>
+
+        <div id="turno-integral">
+          <div class="flex items-center justify-between mb-6">
+            <h3 class="font-headline font-bold text-headline-sm text-slate-900 flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-[22px]">wb_sunny</span>
+              Professores — Integral
+            </h3>
+            <div class="flex items-center gap-2">
+              <button onclick="scrollTeam('integral', -300)" class="w-9 h-9 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Anterior">
+                <span class="material-symbols-outlined text-[18px]">chevron_left</span>
+              </button>
+              <button onclick="scrollTeam('integral', 300)" class="w-9 h-9 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Próximo">
+                <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+              </button>
+            </div>
           </div>
-          <div class="flex items-center gap-2">
-            <button onclick="scrollTeam(-300)" class="w-10 h-10 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Anterior">
-              <span class="material-symbols-outlined text-[20px]">chevron_left</span>
-            </button>
-            <button onclick="scrollTeam(300)" class="w-10 h-10 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Próximo">
-              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+          <div id="teamIntegral" class="flex gap-6 overflow-x-auto scroll-smooth py-2 no-scrollbar"></div>
+          <div class="mt-6 text-center">
+            <button onclick="abrirModal('integral')" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-primary text-primary font-headline text-label-md font-semibold hover:bg-primary hover:text-white transition-all">
+              <span>Ver todos — Integral</span>
+              <span class="material-symbols-outlined text-[18px]">groups</span>
             </button>
           </div>
         </div>
-        <div id="teamContainer" class="flex gap-6 overflow-x-auto scroll-smooth py-2 no-scrollbar"></div>
-        <div class="mt-8 text-center">
-          <button id="btnVerTodos" class="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-primary text-primary font-headline text-label-md font-semibold hover:bg-primary hover:text-white transition-all">
-            <span>Ver todos os membros</span>
-            <span class="material-symbols-outlined text-[18px]">groups</span>
-          </button>
+
+        <div id="turno-noturno" class="hidden">
+          <div class="flex items-center justify-between mb-6">
+            <h3 class="font-headline font-bold text-headline-sm text-slate-900 flex items-center gap-2">
+              <span class="material-symbols-outlined text-secondary text-[22px]">dark_mode</span>
+              Professores — Noturno
+            </h3>
+            <div class="flex items-center gap-2">
+              <button onclick="scrollTeam('noturno', -300)" class="w-9 h-9 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Anterior">
+                <span class="material-symbols-outlined text-[18px]">chevron_left</span>
+              </button>
+              <button onclick="scrollTeam('noturno', 300)" class="w-9 h-9 rounded-full border border-slate-200 hover:bg-slate-100 flex items-center justify-center text-slate-700" aria-label="Próximo">
+                <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+              </button>
+            </div>
+          </div>
+          <div id="teamNoturno" class="flex gap-6 overflow-x-auto scroll-smooth py-2 no-scrollbar"></div>
+          <div class="mt-6 text-center">
+            <button onclick="abrirModal('noturno')" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-primary text-primary font-headline text-label-md font-semibold hover:bg-primary hover:text-white transition-all">
+              <span>Ver todos — Noturno</span>
+              <span class="material-symbols-outlined text-[18px]">groups</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -28,7 +68,7 @@
         <div class="relative mx-auto mt-[5vh] w-[calc(100%-2rem)] max-w-5xl bg-white rounded-2xl shadow-2xl max-h-[85vh] flex flex-col overflow-hidden">
           <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
             <div>
-              <h3 class="font-headline font-bold text-headline-sm text-primary">Equipe Completa</h3>
+              <h3 class="font-headline font-bold text-headline-sm text-primary" id="modalTitulo">Equipe Completa</h3>
               <p class="text-body-sm text-slate-500" id="modalContador"></p>
             </div>
             <button data-close-modal class="w-10 h-10 rounded-full hover:bg-slate-100 flex items-center justify-center text-slate-600" aria-label="Fechar">
