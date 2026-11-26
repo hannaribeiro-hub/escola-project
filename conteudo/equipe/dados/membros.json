@@ -63,11 +63,11 @@
     {
       "nome": "Antonio Jose de Brito",
       "cargo": "Docente",
-      "disciplina": "Química",
-      "formacao": "Especialização em Química",
-      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "disciplina": "Educação Física",
+      "formacao": "Especialização em Educação Física",
+      "descricao": "Especializado em metodologias do ensino básico e atividades físicas.",
       "cor": "accent",
-      "foto": null,
+      "foto": "antonio josé.jpg",
       "visivel": true,
       "turno": "integral",
       "periodo": "integral"
@@ -279,11 +279,11 @@
     {
       "nome": "Jose Diego Rocha Quaresma",
       "cargo": "Docente",
-      "disciplina": "Geografia",
-      "formacao": "Especialização em Geografia",
-      "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
+      "disciplina": "Matemática",
+      "formacao": "licenciado em matemática",
+      "descricao": "possui experiência na docência de matemática nos ensinos fundamental e médio.",
       "cor": "accent",
-      "foto": null,
+      "foto": "diego.jpg",
       "visivel": false,
       "turno": "integral",
       "periodo": "integral"
@@ -358,7 +358,7 @@
       "foto": "prof-quixaba.jpg",
       "visivel": true,
       "turno": "noturno",
-      "periodo": "noturno"
+      "periodo": "integral"
     },
     {
       "nome": "Marcelo dos Santos Silva",
@@ -483,14 +483,14 @@
     {
       "nome": "Regina Maria de Morais Domingues Nascimento",
       "cargo": "Docente",
-      "disciplina": "Sociologia",
-      "formacao": "Mestrado em Sociologia",
-      "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
+      "disciplina": "Língua Portuguesa",
+      "formacao": "Licenciatura em Letras",
+      "descricao": "Profissional da educação, licenciada em Letras.",
       "cor": "secondary",
-      "foto": "prof-regina.jpg",
+      "foto": "nova regina.jpg",
       "visivel": false,
       "turno": "noturno",
-      "periodo": "noturno"
+      "periodo": "integral"
     },
     {
       "nome": "Ricardo Pereira Alves",
