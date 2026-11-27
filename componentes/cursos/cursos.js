@@ -35,7 +35,7 @@
         <div class="curso-card bg-white rounded-xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
           <div>
             <div class="img-wrap h-48 w-full overflow-hidden relative">
-              <img src="${baseImg}${c.imagem}" alt="${c.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <img src="${baseImg}${c.imagem}" alt="${c.titulo}" class="w-full h-full object-cover">
               <span class="absolute top-3 left-3 bg-${c.tagCor || 'primary'} text-white text-[12px] font-headline font-semibold px-2.5 py-1 rounded">${c.tag}</span>
               ${c.periodo === 'noturno' ? '<span class="absolute top-3 right-3 bg-slate-900/80 text-white text-[11px] font-headline font-bold px-2.5 py-1 rounded">EJA</span>' : ''}
             </div>

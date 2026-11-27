@@ -115,22 +115,6 @@ if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
       l.href = l.href.split('?')[0] + '?v=' + Date.now();
     });
   </script>
-  <style>
-    #inicio img, #cursos img, #eventos img, #parcerias img, #contato img {
-      transition: transform 0.4s ease;
-    }
-    #inicio img:hover, #cursos img:hover, #eventos img:hover, #parcerias img:hover, #contato img:hover {
-      transform: scale(1.5);
-    }
-    .curso-card:hover, .evento-card:hover {
-      overflow: visible;
-      position: relative;
-      z-index: 30;
-    }
-    .curso-card:hover .img-wrap, .evento-card:hover .img-wrap {
-      overflow: visible;
-    }
-  </style>
 </head>
 <body class="bg-white text-light-on-surface font-body min-h-[1024px] antialiased selection:bg-primary selection:text-white">
     <div data-component="header"></div>

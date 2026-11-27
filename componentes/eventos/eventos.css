@@ -1,18 +1,3 @@
-#eventos .ev-img {
-  transition: transform 0.4s ease, filter 0.4s ease, opacity 0.3s ease;
-}
-
-#eventos .evento-card:hover .ev-img {
-  opacity: 0;
-  pointer-events: none;
-}
-
-#eventos .evento-card:hover .ev-img.ev-active {
-  opacity: 1;
-  transform: scale(1.5);
-  filter: brightness(1.12);
-}
-
 #eventos .reveal {
   opacity: 0;
   transform: translateY(16px);
