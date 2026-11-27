@@ -110,6 +110,19 @@ if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
   <link rel="stylesheet" href="componentes/eventos/eventos.css">
   <link rel="stylesheet" href="componentes/parcerias/parcerias.css">
   <link rel="stylesheet" href="componentes/rodape/rodape.css">
+  <script>
+    document.querySelectorAll('link[rel="stylesheet"][href^="componentes/"]').forEach((l) => {
+      l.href = l.href.split('?')[0] + '?v=' + Date.now();
+    });
+  </script>
+  <style>
+    #inicio img, #cursos img, #alunos img, #eventos img, #parcerias img, #contato img {
+      transition: transform 0.4s ease;
+    }
+    #inicio img:hover, #cursos img:hover, #alunos img:hover, #eventos img:hover, #parcerias img:hover, #contato img:hover {
+      transform: scale(1.08);
+    }
+  </style>
 </head>
 <body class="bg-white text-light-on-surface font-body min-h-[1024px] antialiased selection:bg-primary selection:text-white">
     <div data-component="header"></div>

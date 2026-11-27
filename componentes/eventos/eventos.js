@@ -30,10 +30,10 @@
         const trackId = `evTrack${i + 1}`;
         const fotos = ev.fotos || [];
         return `
-        <div class="bg-white rounded-xl overflow-hidden border border-slate-200">
+        <div class="evento-card bg-white rounded-xl overflow-hidden border border-slate-200">
           <div class="relative h-48 w-full overflow-hidden bg-slate-900">
             <div id="${trackId}" class="flex w-full h-full transition-transform duration-300">
-              ${fotos.map((f) => `<img src="${baseImg}${f}" alt="${ev.titulo}" class="w-full h-full object-cover flex-shrink-0">`).join('')}
+              ${fotos.map((f) => `<img src="${baseImg}${f}" alt="${ev.titulo}" class="ev-img w-full h-full object-cover flex-shrink-0">`).join('')}
             </div>
             ${fotos.length > 1 ? `
             <button onclick="slideEv('${trackId}', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center" aria-label="Foto anterior">
