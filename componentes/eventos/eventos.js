@@ -1,63 +1,77 @@
 (function () {
-  const evState = {};
+  const viewer = document.getElementById('eventosViewer');
+  if (!viewer) return;
 
-  window.slideEv = function (id, dir) {
-    const track = document.getElementById(id);
-    if (!track) return;
-    const total = track.children.length;
-    if (total <= 1) return;
-    evState[id] = ((evState[id] || 0) + dir + total) % total;
-    track.style.transform = `translateX(-${evState[id] * 100}%)`;
-    const dots = document.getElementById(id + 'Dots');
-    if (dots) {
-      Array.from(dots.children).forEach((d, i) => {
-        d.className = i === evState[id]
-          ? 'w-4 h-1.5 rounded-full bg-white'
-          : 'w-1.5 h-1.5 rounded-full bg-white/50';
-      });
-    }
-  };
-
-  const grid = document.getElementById('eventosGrid');
-  if (!grid) return;
+  const track = document.getElementById('evTrack');
+  const dotsEl = document.getElementById('evDots');
+  const tituloEl = document.getElementById('evTitulo');
+  const descEl = document.getElementById('evDesc');
+  const prevBtn = document.getElementById('evPrev');
+  const nextBtn = document.getElementById('evNext');
 
   const baseImg = 'conteudo/eventos/fotos/';
+  let slides = [];
+  let eventos = [];
+  let idx = 0;
 
   fetch('conteudo/eventos/dados/eventos.json', { cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
-      grid.innerHTML = (data.eventos || []).map((ev, i) => {
-        const trackId = `evTrack${i + 1}`;
-        const fotos = ev.fotos || [];
-        return `
-        <div class="evento-card bg-white rounded-xl overflow-hidden border border-slate-200">
-          <div class="img-wrap relative h-48 w-full overflow-hidden bg-slate-900">
-            <div id="${trackId}" class="flex w-full h-full transition-transform duration-300">
-              ${fotos.map((f) => `<img src="${baseImg}${f}" alt="${ev.titulo}" class="ev-img w-full h-full object-cover flex-shrink-0">`).join('')}
-            </div>
-            ${fotos.length > 1 ? `
-            <button onclick="slideEv('${trackId}', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center" aria-label="Foto anterior">
-              <span class="material-symbols-outlined text-[16px]">chevron_left</span>
-            </button>
-            <button onclick="slideEv('${trackId}', 1)" class="absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center" aria-label="Próxima foto">
-              <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-            </button>
-            <div id="${trackId}Dots" class="absolute bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5">
-              ${fotos.map((_, j) => `<span class="${j === 0 ? 'w-4 h-1.5 rounded-full bg-white' : 'w-1.5 h-1.5 rounded-full bg-white/50'}"></span>`).join('')}
-            </div>` : ''}
-          </div>
-          <div class="p-5">
-            <h4 class="font-headline font-bold text-slate-900 text-label-lg mb-1">${ev.titulo}</h4>
-            <p class="text-body-sm text-slate-600">${ev.descricao}</p>
-          </div>
-        </div>`;
-      }).join('');
+      eventos = data.eventos || [];
+      slides = [];
+      eventos.forEach((ev) => {
+        (ev.fotos || []).forEach((f) => slides.push({ evento: ev, foto: f }));
+      });
+      if (!slides.length) return;
+
+      track.innerHTML = slides.map((s) => `
+        <img src="${baseImg}${s.foto}" alt="${s.evento.titulo}" class="w-full h-[320px] sm:h-[420px] md:h-[480px] object-cover flex-shrink-0">`).join('');
+
+      dotsEl.innerHTML = eventos.map((_, i) => `
+        <button data-ev="${i}" class="ev-dot h-1.5 rounded-full transition-all" aria-label="Ir para evento"></button>`).join('');
+      dotsEl.querySelectorAll('.ev-dot').forEach((d) => {
+        d.addEventListener('click', () => goToEvento(parseInt(d.dataset.ev, 10)));
+      });
+
+      prevBtn.addEventListener('click', () => go(-1));
+      nextBtn.addEventListener('click', () => go(1));
+
+      render();
       observar();
     })
     .catch((err) => console.error('Erro ao carregar eventos:', err));
 
+  function eventoIndex(ev) {
+    return eventos.indexOf(ev);
+  }
+
+  function go(dir) {
+    idx = (idx + dir + slides.length) % slides.length;
+    render();
+  }
+
+  function goToEvento(i) {
+    const primeiro = slides.findIndex((s) => eventoIndex(s.evento) === i);
+    if (primeiro >= 0) {
+      idx = primeiro;
+      render();
+    }
+  }
+
+  function render() {
+    track.style.transform = `translateX(-${idx * 100}%)`;
+    const atual = slides[idx];
+    tituloEl.textContent = atual.evento.titulo;
+    descEl.textContent = atual.evento.descricao || '';
+
+    const evAtual = eventoIndex(atual.evento);
+    dotsEl.querySelectorAll('.ev-dot').forEach((d, i) => {
+      d.style.width = i === evAtual ? '1.75rem' : '0.375rem';
+      d.style.background = i === evAtual ? '#fff' : 'rgba(255,255,255,0.45)';
+    });
+  }
+
   function observar() {
-    const itens = grid.querySelectorAll(':scope > div');
     const io = new IntersectionObserver(
       (entries) => entries.forEach((e) => {
         if (e.isIntersecting) {
@@ -67,10 +81,6 @@
       }),
       { threshold: 0.15 }
     );
-    itens.forEach((el, i) => {
-      el.classList.add('reveal');
-      el.style.transitionDelay = `${i * 80}ms`;
-      io.observe(el);
-    });
+    io.observe(viewer);
   }
 })();
