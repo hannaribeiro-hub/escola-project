@@ -8,6 +8,9 @@
     if (total <= 1) return;
     evState[id] = ((evState[id] || 0) + dir + total) % total;
     track.style.transform = `translateX(-${evState[id] * 100}%)`;
+    Array.from(track.children).forEach((img, i) => {
+      img.classList.toggle('ev-active', i === evState[id]);
+    });
     const dots = document.getElementById(id + 'Dots');
     if (dots) {
       Array.from(dots.children).forEach((d, i) => {
@@ -52,6 +55,9 @@
           </div>
         </div>`;
       }).join('');
+      grid.querySelectorAll('[id^="evTrack"]').forEach((t) => {
+        if (t.firstElementChild) t.firstElementChild.classList.add('ev-active');
+      });
       observar();
     })
     .catch((err) => console.error('Erro ao carregar eventos:', err));
