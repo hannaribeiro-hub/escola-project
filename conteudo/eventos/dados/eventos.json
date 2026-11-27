@@ -35,61 +35,6 @@
         "ft3.jpeg",
         "ft4.jpeg"
       ]
-    },
-    {
-      "titulo": "Feira de Ciências e Tecnologia",
-      "descricao": "Apresentação dos projetos práticos dos cursos técnicos à comunidade.",
-      "fotos": [
-        "IMG_20261123_170839_541_2.jpg",
-        "IMG_20261123_170840_115_4.jpg",
-        "IMG_20261123_170840_116_3.jpg",
-        "IMG_20261123_170840_132_5.jpg",
-        "IMG_20261123_170840_281_6.jpg"
-      ]
-    },
-    {
-      "titulo": "Jogos de Integração",
-      "descricao": "Torneios esportivos entre turmas do Fundamental e Médio.",
-      "fotos": [
-        "IMG_20261123_170840_296_7.jpg",
-        "IMG_20261123_170840_308_8.jpg",
-        "IMG_20261123_170840_421_9.jpg",
-        "IMG_20261123_170840_491_10.jpg",
-        "IMG_20261123_170840_501_11.jpg"
-      ]
-    },
-    {
-      "titulo": "Mostra de Jogos & Gamedev",
-      "descricao": "Exposição dos jogos criados pelos alunos do curso de Desenvolvimento de Jogos.",
-      "fotos": [
-        "IMG_20261123_170840_725_12.jpg",
-        "IMG_20261123_170840_750_13.jpg",
-        "IMG_20261123_170840_770_14.jpg",
-        "IMG_20261123_170840_931_15.jpg",
-        "IMG_20261123_170840_931_16.jpg"
-      ]
-    },
-    {
-      "titulo": "Semana de Projetos Integradores",
-      "descricao": "Apresentação de projetos interdisciplinares desenvolvidos em equipe pelos estudantes.",
-      "fotos": [
-        "IMG_20261123_170840_964_17.jpg",
-        "IMG_20261123_170841_181_18.jpg",
-        "IMG_20261123_170841_184_19.jpg",
-        "IMG_20261123_170841_212_20.jpg",
-        "IMG_20261123_170841_393_22.jpg"
-      ]
-    },
-    {
-      "titulo": "Cerimônia de Premiação Anual",
-      "descricao": "Reconhecimento dos melhores alunos, projetos e equipes do ano letivo.",
-      "fotos": [
-        "IMG_20261123_170841_412_23.jpg",
-        "IMG_20261123_170841_556_24.jpg",
-        "IMG_20261123_170841_599_25.jpg",
-        "IMG_20261123_170841_620_26.jpg",
-        "IMG_20261123_170841_760_27.jpg"
-      ]
     }
   ]
 }
