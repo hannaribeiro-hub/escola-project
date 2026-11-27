@@ -417,8 +417,8 @@
       "cor": "secondary",
       "foto": null,
       "visivel": false,
-      "turno": "noturno",
-      "periodo": "noturno"
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Marilia Barros de Sousa Portugal",
@@ -429,8 +429,8 @@
       "cor": "accent",
       "foto": null,
       "visivel": false,
-      "turno": "noturno",
-      "periodo": "noturno"
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Paulo Adriano Ribeiro dos Santos",
@@ -441,20 +441,20 @@
       "cor": "primary",
       "foto": null,
       "visivel": false,
-      "turno": "noturno",
-      "periodo": "noturno"
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Pedro Teotonio de Azevedo Neto",
       "cargo": "Docente",
-      "disciplina": "História",
-      "formacao": "Mestrado em História",
+      "disciplina": "Física",
+      "formacao": "Especialização em Física",
       "descricao": "Comprometido com o desenvolvimento integral dos estudantes.",
       "cor": "secondary",
-      "foto": null,
+      "foto": "pedro.jpg",
       "visivel": false,
-      "turno": "noturno",
-      "periodo": "noturno"
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Rafaela de Morais Araujo",
