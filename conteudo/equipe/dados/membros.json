@@ -31,7 +31,7 @@
       "formacao": "Especialização em Inglês",
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
-      "foto": null,
+      "foto": "ana.jpg",
       "visivel": true,
       "turno": "integral",
       "periodo": "integral"
@@ -75,14 +75,14 @@
     {
       "nome": "Aurilene de Andrade Leal",
       "cargo": "Docente",
-      "disciplina": "Biologia",
-      "formacao": "Licenciatura em Biologia",
+      "disciplina": "Língua Portuguesa",
+      "formacao": "Especialização em Língua Portuguesa",
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
-      "foto": null,
+      "foto": "aurilene eja.jpeg",
       "visivel": false,
-      "turno": "integral",
-      "periodo": "integral"
+      "turno": "noturno",
+      "periodo": "noturno"
     },
     {
       "nome": "Carina Pinto Gazze de Carvalho",
@@ -135,11 +135,11 @@
     {
       "nome": "Debora dos Santos Costa",
       "cargo": "Docente",
-      "disciplina": "Arte",
-      "formacao": "Especialização em Arte",
+      "disciplina": "Curso Tecnico",
+      "formacao": "Sistemas de Energia Renovável",
       "descricao": "Valoriza o diálogo, o respeito e a construção coletiva do saber.",
       "cor": "accent",
-      "foto": null,
+      "foto": "débora.jpg",
       "visivel": false,
       "turno": "integral",
       "periodo": "integral"
@@ -219,14 +219,14 @@
     {
       "nome": "Francisco Regis da Silva Cunha",
       "cargo": "Docente",
-      "disciplina": "Ciências",
+      "disciplina": "Administração",
       "formacao": "Licenciatura em Ciências",
       "descricao": "Dedicação e paixão por ensinar, sempre buscando inovar em sala de aula.",
       "cor": "primary",
-      "foto": null,
+      "foto": "regis eja.jpeg",
       "visivel": false,
-      "turno": "integral",
-      "periodo": "integral"
+      "turno": "noturno",
+      "periodo": "eja"
     },
     {
       "nome": "Gabriela Costa dos Santos Ribeiro",
@@ -255,11 +255,11 @@
     {
       "nome": "Jefferson Cley Olimpio Silva",
       "cargo": "Docente",
-      "disciplina": "Biologia",
-      "formacao": "Licenciatura em Biologia",
+      "disciplina": "Química",
+      "formacao": "Licenciatura em Química",
       "descricao": "Atencioso e disponível para o acompanhamento individual dos alunos.",
       "cor": "primary",
-      "foto": null,
+      "foto": "xexeu.jpeg",
       "visivel": false,
       "turno": "integral",
       "periodo": "integral"
@@ -267,8 +267,8 @@
     {
       "nome": "Joao Batista Pereira da Silva Junior",
       "cargo": "Docente",
-      "disciplina": "História",
-      "formacao": "Mestrado em História",
+      "disciplina": "Matemática",
+      "formacao": "Mestrado em Matemática",
       "descricao": "Entusiasta de tecnologias educacionais e aprendizagem prática.",
       "cor": "secondary",
       "foto": null,
@@ -459,11 +459,11 @@
     {
       "nome": "Rafaela de Morais Araujo",
       "cargo": "Docente",
-      "disciplina": "Geografia",
-      "formacao": "Especialização em Geografia",
+      "disciplina": "Administração ",
+      "formacao": "Especialização em Administração",
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
-      "foto": null,
+      "foto": "rafaela eja.jpg",
       "visivel": false,
       "turno": "noturno",
       "periodo": "noturno"
@@ -489,7 +489,7 @@
       "cor": "secondary",
       "foto": "nova regina.jpg",
       "visivel": false,
-      "turno": "noturno",
+      "turno": "integral",
       "periodo": "integral"
     },
     {
@@ -531,14 +531,14 @@
     {
       "nome": "Rosilene dos Santos Galeno",
       "cargo": "Docente",
-      "disciplina": "Robótica",
-      "formacao": "Especialização em Robótica",
+      "disciplina": "Geografia",
+      "formacao": "Especialização em Geografia",
       "descricao": "Experiência em metodologia ativa e projetos interdisciplinares.",
       "cor": "accent",
-      "foto": null,
+      "foto": "rosilene.jpg",
       "visivel": false,
-      "turno": "noturno",
-      "periodo": "noturno"
+      "turno": "integral",
+      "periodo": "integral"
     },
     {
       "nome": "Stephany Santos Cardoso",
