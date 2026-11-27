@@ -116,18 +116,18 @@ if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
     });
   </script>
   <style>
-    #inicio img, #cursos img, #alunos img, #eventos img, #parcerias img, #contato img {
+    #inicio img, #cursos img, #eventos img, #parcerias img, #contato img {
       transition: transform 0.4s ease;
     }
-    #inicio img:hover, #cursos img:hover, #alunos img:hover, #eventos img:hover, #parcerias img:hover, #contato img:hover {
+    #inicio img:hover, #cursos img:hover, #eventos img:hover, #parcerias img:hover, #contato img:hover {
       transform: scale(1.5);
     }
-    .curso-card:has(img:hover), .aluno-card:has(img:hover), .evento-card:has(img:hover) {
+    .curso-card:has(img:hover), .evento-card:has(img:hover) {
       overflow: visible;
       position: relative;
       z-index: 30;
     }
-    .curso-card:has(img:hover) .img-wrap, .aluno-card:has(img:hover) .img-wrap, .evento-card:has(img:hover) .img-wrap {
+    .curso-card:has(img:hover) .img-wrap, .evento-card:has(img:hover) .img-wrap {
       overflow: visible;
     }
   </style>
