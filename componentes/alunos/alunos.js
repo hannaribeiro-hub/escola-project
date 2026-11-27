@@ -8,8 +8,8 @@
     .then((r) => r.json())
     .then((data) => {
       grid.innerHTML = (data.alunos || []).map((a) => `
-        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden flex flex-col">
-          <div class="h-44 w-full overflow-hidden">
+        <div class="aluno-card bg-white rounded-xl border border-slate-200 overflow-hidden flex flex-col">
+          <div class="img-wrap h-44 w-full overflow-hidden">
             <img src="${baseImg}${a.foto}" alt="${a.nome}" class="w-full h-full object-cover">
           </div>
           <div class="p-5 flex flex-col items-center text-center flex-1">

@@ -31,7 +31,7 @@
         const fotos = ev.fotos || [];
         return `
         <div class="evento-card bg-white rounded-xl overflow-hidden border border-slate-200">
-          <div class="relative h-48 w-full overflow-hidden bg-slate-900">
+          <div class="img-wrap relative h-48 w-full overflow-hidden bg-slate-900">
             <div id="${trackId}" class="flex w-full h-full transition-transform duration-300">
               ${fotos.map((f) => `<img src="${baseImg}${f}" alt="${ev.titulo}" class="ev-img w-full h-full object-cover flex-shrink-0">`).join('')}
             </div>
