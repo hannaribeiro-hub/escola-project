@@ -122,12 +122,12 @@ if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
     #inicio img:hover, #cursos img:hover, #eventos img:hover, #parcerias img:hover, #contato img:hover {
       transform: scale(1.5);
     }
-    .curso-card:has(img:hover), .evento-card:has(img:hover) {
+    .curso-card:hover, .evento-card:hover {
       overflow: visible;
       position: relative;
       z-index: 30;
     }
-    .curso-card:has(img:hover) .img-wrap, .evento-card:has(img:hover) .img-wrap {
+    .curso-card:hover .img-wrap, .evento-card:hover .img-wrap {
       overflow: visible;
     }
   </style>
