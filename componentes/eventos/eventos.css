@@ -3,7 +3,7 @@
 }
 
 #eventos .evento-card:hover .ev-img {
-  transform: scale(1.06);
+  transform: scale(1.5);
   filter: brightness(1.12);
 }
 
